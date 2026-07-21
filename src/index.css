@@ -123,9 +123,34 @@
     @apply border-border outline-ring/50;
     }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
     }
   html {
     @apply font-sans;
     }
+}
+
+button { cursor: pointer; }
+
+@keyframes live-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 color-mix(in oklch, var(--primary) 35%, transparent); }
+  50% { box-shadow: 0 0 0 5px transparent; }
+}
+
+@keyframes value-pop {
+  from { opacity: 0.35; transform: translateY(3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes chart-enter {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.live-dot { animation: live-pulse 2.4s ease-in-out infinite; }
+.value-pop { animation: value-pop 300ms ease-out; }
+.chart-enter { animation: chart-enter 450ms ease-out; }
+
+@media (prefers-reduced-motion: reduce) {
+  .live-dot, .value-pop, .chart-enter { animation: none; }
 }
