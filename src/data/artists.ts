@@ -14,6 +14,8 @@ export type Artist = {
   opportunity: number
   status: "strong opportunity" | "rising fast" | "saturated" | "stable" | "cooling down"
   genres: string[]
+  location: string
+  descriptor: string
   isCredit: boolean
   isPriority: boolean
   history24h: number[]
@@ -27,7 +29,7 @@ const history = (start: number, points: number, drift: number, seed: number) =>
     Math.max(8, Math.min(100, Math.round((start + index * drift + Math.sin(index * 1.7 + seed) * 3) * 10) / 10))
   )
 
-type ArtistSeed = Omit<Artist, "score" | "opportunity" | "history24h" | "history7d" | "history30d" | "history90d">
+type ArtistSeed = Omit<Artist, "score" | "opportunity" | "location" | "descriptor" | "history24h" | "history7d" | "history30d" | "history90d">
 
 const seeds: ArtistSeed[] = [
   { id: "future", name: "future", change24h: 12, change7d: 18, change30d: 27, change90d: 34, demand: 94, competition: 79, momentum: 86, status: "rising fast", genres: ["future type beat", "dark trap", "melodic dark"], isCredit: false, isPriority: true },
@@ -52,14 +54,40 @@ const seeds: ArtistSeed[] = [
   { id: "est-gee", name: "est gee", change24h: -3, change7d: 3, change30d: 14, change90d: 29, demand: 84, competition: 72, momentum: 57, status: "cooling down", genres: ["street trap", "aggressive", "dark trap"], isCredit: false, isPriority: false },
 ]
 
-export const mockLastUpdated = "jul 20, 2026 · 5:00 pm"
+type RegistryArtist = Pick<Artist, "id" | "name" | "location" | "descriptor" | "genres" | "isCredit" | "isPriority">
 
-export const artists: Artist[] = seeds.map((artist, seed) => ({
-  ...artist,
-  score: 0,
-  opportunity: Math.round(artist.demand * 0.45 + artist.momentum * 0.35 + (100 - artist.competition) * 0.2),
-  history24h: history(artist.demand - artist.change24h / 3, 12, artist.change24h / 32, seed),
-  history7d: history(artist.demand - artist.change7d / 3, 14, artist.change7d / 40, seed),
-  history30d: history(artist.demand - artist.change30d / 2.5, 15, artist.change30d / 38, seed),
-  history90d: history(artist.demand - artist.change90d / 2, 18, artist.change90d / 40, seed),
-}))
+const registry = registryData as RegistryArtist[]
+const seedsById = new Map(seeds.map((artist) => [artist.id, artist]))
+
+function createFallbackSeed(artist: RegistryArtist, index: number): ArtistSeed {
+  return {
+    id: artist.id,
+    name: artist.name,
+    change24h: 0,
+    change7d: 0,
+    change30d: 0,
+    change90d: 0,
+    demand: 48 + (index * 7) % 24,
+    competition: 35 + (index * 11) % 30,
+    momentum: 45 + (index * 5) % 28,
+    status: "stable",
+    genres: artist.genres,
+    isCredit: artist.isCredit,
+    isPriority: artist.isPriority,
+  }
+}
+
+export const artists: Artist[] = registry.map((registryArtist, index) => {
+  const artist = seedsById.get(registryArtist.id) ?? createFallbackSeed(registryArtist, index)
+  return {
+    ...artist,
+    ...registryArtist,
+    score: 0,
+    opportunity: Math.round(artist.demand * 0.45 + artist.momentum * 0.35 + (100 - artist.competition) * 0.2),
+    history24h: history(artist.demand - artist.change24h / 3, 12, artist.change24h / 32, index),
+    history7d: history(artist.demand - artist.change7d / 3, 14, artist.change7d / 40, index),
+    history30d: history(artist.demand - artist.change30d / 2.5, 15, artist.change30d / 38, index),
+    history90d: history(artist.demand - artist.change90d / 2, 18, artist.change90d / 40, index),
+  }
+})
+import registryData from "@/data/artist-registry.json"

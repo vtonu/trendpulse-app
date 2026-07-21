@@ -13,8 +13,8 @@
     --card-foreground: oklch(0.147 0.004 49.25);
     --popover: oklch(1 0 0);
     --popover-foreground: oklch(0.147 0.004 49.25);
-    --primary: oklch(0.841 0.238 128.85);
-    --primary-foreground: oklch(0.405 0.101 131.063);
+    --primary: oklch(0.585 0.19 130.5);
+    --primary-foreground: oklch(0.985 0.001 106.423);
     --secondary: oklch(0.967 0.001 286.375);
     --secondary-foreground: oklch(0.21 0.006 285.885);
     --muted: oklch(0.97 0.001 106.424);
@@ -150,6 +150,15 @@ button { cursor: pointer; }
 .live-dot { animation: live-pulse 2.4s ease-in-out infinite; }
 .value-pop { animation: value-pop 300ms ease-out; }
 .chart-enter { animation: chart-enter 450ms ease-out; }
+
+.trend-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.trend-scroll::-webkit-scrollbar {
+  display: none;
+}
 
 @media (prefers-reduced-motion: reduce) {
   .live-dot, .value-pop, .chart-enter { animation: none; }

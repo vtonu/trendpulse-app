@@ -15,6 +15,7 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
       <div className="text-right font-heading text-[10px] leading-5 text-muted-foreground">
         <div className="flex items-center justify-end gap-1.5 text-foreground"><Activity className="size-3 text-primary" />updated daily</div>
         <div>{lastUpdated}</div>
+        <div>press <kbd>d</kbd> to toggle dark mode</div>
       </div>
     </header>
   )

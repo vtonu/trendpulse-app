@@ -29,36 +29,3 @@ export function rankArtists(data: Artist[], range: TimeRange) {
       b.score + getChange(b, range) * rangeWeight - (a.score + getChange(a, range) * rangeWeight)
     )
 }
-
-const vary = (value: number, amount: number) => Math.max(0, Math.min(100, Math.round(value + (Math.random() - 0.5) * amount)))
-
-export function developmentRefresh(data: Artist[]) {
-  return data.map((artist) => {
-    const demand = vary(artist.demand, 8)
-    const competition = vary(artist.competition, 5)
-    const momentum = vary(artist.momentum, 10)
-    const change24h = Math.round((artist.change24h + (Math.random() - 0.5) * 8) * 10) / 10
-    const change7d = Math.round((artist.change7d + (Math.random() - 0.5) * 6) * 10) / 10
-    const change30d = Math.round((artist.change30d + (Math.random() - 0.5) * 5) * 10) / 10
-    const change90d = Math.round((artist.change90d + (Math.random() - 0.5) * 4) * 10) / 10
-    const refreshHistory = (history: number[]) => [
-      ...history.slice(1),
-      vary(history.at(-1) ?? demand, 10),
-    ]
-    return {
-      ...artist,
-      demand,
-      competition,
-      momentum,
-      change24h,
-      change7d,
-      change30d,
-      change90d,
-      opportunity: Math.round(demand * 0.45 + momentum * 0.35 + (100 - competition) * 0.2),
-      history24h: refreshHistory(artist.history24h),
-      history7d: refreshHistory(artist.history7d),
-      history30d: refreshHistory(artist.history30d),
-      history90d: refreshHistory(artist.history90d),
-    }
-  })
-}

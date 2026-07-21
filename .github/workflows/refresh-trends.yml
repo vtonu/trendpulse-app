@@ -1,0 +1,29 @@
+name: refresh trend data
+
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: refresh youtube signals
+        run: node scripts/refresh-youtube-data.mjs
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      - name: commit updated data
+        run: |
+          git config user.name "trend pulse bot"
+          git config user.email "trend-pulse-bot@users.noreply.github.com"
+          git add public/data/trends.json
+          git diff --cached --quiet || git commit -m "update daily trend data"
+          git push
