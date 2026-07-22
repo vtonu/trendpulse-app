@@ -22,6 +22,7 @@ export function App() {
     }).format(now)
     return `${date} · ${time}`.toLowerCase()
   })
+  const [lastUpdated, setLastUpdated] = useState(localTime)
   const rankedArtists = useMemo(() => rankArtists(artists, range), [artists, range])
   const [selectedId, setSelectedId] = useState(() => rankArtists(initialArtists, "24h")[0].id)
   const selectedArtist = rankedArtists.find((artist) => artist.id === selectedId) ?? rankedArtists[0]
@@ -37,8 +38,22 @@ export function App() {
         })
         if (!response.ok) return
 
-        const payload = (await response.json()) as { artists?: Array<Partial<Artist> & Pick<Artist, "id">> }
+        const payload = (await response.json()) as { updatedAt?: string; artists?: Array<Partial<Artist> & Pick<Artist, "id">> }
         if (!payload.artists?.length) return
+
+        if (payload.updatedAt) {
+          const updatedAt = new Date(payload.updatedAt)
+          const date = new Intl.DateTimeFormat(undefined, {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          }).format(updatedAt)
+          const time = new Intl.DateTimeFormat(undefined, {
+            hour: "numeric",
+            minute: "2-digit",
+          }).format(updatedAt)
+          setLastUpdated(`${date} · ${time}`.toLowerCase())
+        }
 
         setArtists((current) =>
           current.map((artist) => ({
@@ -60,7 +75,7 @@ export function App() {
   return (
     <main className="min-h-svh px-4 py-8 sm:px-8 sm:py-12">
       <div className="mx-auto flex w-full max-w-xl flex-col gap-10">
-        <TrendPulseHeader lastUpdated={localTime} />
+        <TrendPulseHeader lastUpdated={lastUpdated} />
         <TimeRangeTabs value={range} onChange={setRange} />
         <TopTrendingList artists={rankedArtists} range={range} selectedId={selectedArtist.id} onSelect={setSelectedId} />
         <MarketOverview artist={selectedArtist} range={range} />

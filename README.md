@@ -1,23 +1,43 @@
-# React + TypeScript + Vite + shadcn/ui (v1.0.4)
+# trend pulse
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+Trend Pulse ranks type-beat markets with daily YouTube search data. It tracks demand, competition, momentum, opportunity, and short-term change for a focused artist list.
 
-<img width="2443" height="1232" alt="OnPaste 20260721-235943" src="https://github.com/user-attachments/assets/2928a03d-7ee5-40ee-a22e-bb24e81bcd03" />
+<img width="2443" height="1232" alt="Trend Pulse" src="https://github.com/user-attachments/assets/2928a03d-7ee5-40ee-a22e-bb24e81bcd03" />
 
-## Adding components
+## local setup
 
-To add components to your app, run the following command:
+Install and start the app:
 
-```bash
-npx shadcn@latest add button
+```sh
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `src/components` directory.
+## refresh trend data
 
-## Using components
+Create `.env.local` in the project root:
 
-To use the components in your app, import them as follows:
+```env
+YOUTUBE_API_KEY=your_key_here
+```
 
-```tsx
-import { Button } from "@/components/ui/button"
+Run a refresh:
+
+```sh
+npm run refresh-data
+```
+
+The script writes the latest results to `public/data/trends.json`. Keep `.env.local` private and never commit the API key.
+
+## daily updates
+
+The GitHub Actions workflow runs every day at 12:17 UTC. Add `YOUTUBE_API_KEY` as a GitHub Actions repository secret. The workflow refreshes the trend data, commits the new JSON file, and pushes it to the repository.
+
+When the repository is linked to Vercel, each data commit starts a new deployment.
+
+## checks
+
+```sh
+npm run build
+npm run lint
 ```

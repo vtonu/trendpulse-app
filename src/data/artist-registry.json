@@ -12,5 +12,21 @@
   { "id": "roddy-treyy", "name": "roddy treyy", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "street trap"], "isCredit": false, "isPriority": true },
   { "id": "pso-spark", "name": "pso spark", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": true, "isPriority": false },
   { "id": "dee-mula", "name": "dee mula", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": false },
-  { "id": "babyceo-trell", "name": "babyceo trell", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": false, "isPriority": false }
+  { "id": "babyceo-trell", "name": "babyceo trell", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": false, "isPriority": false },
+  { "id": "skrilla", "name": "skrilla", "location": "philadelphia", "descriptor": "street trap", "genres": ["dark trap", "street trap", "aggressive"], "isCredit": true, "isPriority": true },
+  { "id": "ync-traislime", "name": "ync traislime", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "aggressive", "street trap"], "isCredit": false, "isPriority": true },
+  { "id": "doubleg-fatt", "name": "doubleg fatt", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap"], "isCredit": false, "isPriority": true },
+  { "id": "baby-shiesty", "name": "baby shiesty", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive"], "isCredit": false, "isPriority": false },
+  { "id": "ken-carson", "name": "ken carson", "location": "atlanta", "descriptor": "rage", "genres": ["rage", "aggressive"], "isCredit": false, "isPriority": false },
+  { "id": "nettspend", "name": "nettspend", "location": "richmond", "descriptor": "rage", "genres": ["rage", "sample trap"], "isCredit": false, "isPriority": false },
+  { "id": "lil-double-0", "name": "lil double 0", "location": "memphis", "descriptor": "street trap", "genres": ["street trap", "dark trap"], "isCredit": false, "isPriority": true },
+  { "id": "est-gee", "name": "est gee", "location": "louisville", "descriptor": "street trap", "genres": ["street trap", "aggressive", "dark trap"], "isCredit": false, "isPriority": false },
+  { "id": "key-glock", "name": "key glock", "location": "memphis", "descriptor": "memphis trap", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": true },
+  { "id": "moneybagg-yo", "name": "moneybagg yo", "location": "memphis", "descriptor": "memphis trap", "genres": ["memphis", "street trap"], "isCredit": false, "isPriority": true },
+  { "id": "pooh-shiesty", "name": "pooh shiesty", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": true },
+  { "id": "young-thug", "name": "young thug", "location": "atlanta", "descriptor": "melodic trap", "genres": ["melodic dark", "street trap"], "isCredit": false, "isPriority": false },
+  { "id": "playboi-carti", "name": "playboi carti", "location": "atlanta", "descriptor": "rage", "genres": ["rage", "aggressive"], "isCredit": false, "isPriority": false },
+  { "id": "destroy-lonely", "name": "destroy lonely", "location": "atlanta", "descriptor": "rage", "genres": ["rage", "melodic dark"], "isCredit": false, "isPriority": false },
+  { "id": "homixide-gang", "name": "homixide gang", "location": "atlanta", "descriptor": "rage", "genres": ["rage", "aggressive", "dark trap"], "isCredit": false, "isPriority": false },
+  { "id": "glokk40spaz", "name": "glokk40spaz", "location": "atlanta", "descriptor": "dark trap", "genres": ["dark trap", "aggressive", "street trap"], "isCredit": false, "isPriority": true }
 ]

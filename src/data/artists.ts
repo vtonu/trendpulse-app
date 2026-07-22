@@ -22,6 +22,7 @@ export type Artist = {
   history7d: number[]
   history30d: number[]
   history90d: number[]
+  sampleSize?: number
 }
 
 const history = (start: number, points: number, drift: number, seed: number) =>
