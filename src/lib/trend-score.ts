@@ -1,6 +1,6 @@
 import type { Artist, TimeRange } from "@/data/artists"
 
-export const ranges: TimeRange[] = ["24h", "7d", "30d", "90d"]
+export const ranges: TimeRange[] = ["24h", "7d", "30d"]
 
 export function calculateScore(artist: Artist) {
   const base = artist.demand * 0.4 + artist.momentum * 0.35 + (100 - artist.competition) * 0.25

@@ -1,24 +1,16 @@
 [
   { "id": "future", "name": "future", "location": "atlanta", "descriptor": "melodic dark", "genres": ["future type beat", "dark trap", "melodic dark"], "isCredit": false, "isPriority": true },
   { "id": "southside", "name": "southside", "location": "atlanta", "descriptor": "dark trap", "genres": ["future type beat", "dark trap", "aggressive"], "isCredit": false, "isPriority": true },
-  { "id": "prodbyquality", "name": "prodbyquality", "location": "location pending", "descriptor": "dark trap", "genres": ["dark trap", "memphis", "aggressive"], "isCredit": true, "isPriority": true },
   { "id": "baby-walkdown", "name": "baby walkdown", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap"], "isCredit": true, "isPriority": true },
   { "id": "rodslime", "name": "rodslime", "location": "memphis", "descriptor": "dark trap", "genres": ["memphis", "dark trap"], "isCredit": true, "isPriority": true },
   { "id": "dracbaby", "name": "dracbaby", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "dark trap"], "isCredit": true, "isPriority": true },
   { "id": "fully-auto", "name": "fully auto", "location": "memphis", "descriptor": "dark trap", "genres": ["dark trap", "aggressive", "street trap"], "isCredit": true, "isPriority": true },
   { "id": "babystacxzz", "name": "babystacxzz", "location": "atlanta", "descriptor": "rage", "genres": ["dark trap", "rage", "aggressive"], "isCredit": true, "isPriority": true },
-  { "id": "terion-dadon", "name": "terion dadon", "location": "location pending", "descriptor": "street trap", "genres": ["street trap", "dark trap"], "isCredit": true, "isPriority": true },
-  { "id": "cosplatt", "name": "cosplatt", "location": "memphis", "descriptor": "sample trap", "genres": ["dark trap", "sample trap", "memphis"], "isCredit": true, "isPriority": true },
   { "id": "hopout", "name": "hopout", "location": "location pending", "descriptor": "aggressive", "genres": ["aggressive", "street trap"], "isCredit": true, "isPriority": true },
   { "id": "mac-critter", "name": "mac critter", "location": "memphis", "descriptor": "aggressive", "genres": ["memphis", "street trap", "aggressive"], "isCredit": true, "isPriority": true },
   { "id": "babylake-tj", "name": "babylake tj", "location": "location pending", "descriptor": "street trap", "genres": ["street trap", "dark trap"], "isCredit": true, "isPriority": true },
-  { "id": "co3", "name": "co3", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": true },
   { "id": "roddy-treyy", "name": "roddy treyy", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "street trap"], "isCredit": false, "isPriority": true },
   { "id": "pso-spark", "name": "pso spark", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": true, "isPriority": false },
   { "id": "dee-mula", "name": "dee mula", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": false },
-  { "id": "babyceo-trell", "name": "babyceo trell", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": false, "isPriority": false },
-  { "id": "tezzo", "name": "tezzo", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "street trap"], "isCredit": false, "isPriority": false },
-  { "id": "fatt-slime", "name": "fatt slime", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "dark trap"], "isCredit": true, "isPriority": false },
-  { "id": "tay-walk", "name": "tay walk", "location": "memphis", "descriptor": "street trap", "genres": ["memphis", "street trap", "aggressive"], "isCredit": false, "isPriority": false },
-  { "id": "babyy-bumpstock", "name": "babyy bumpstock", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": false, "isPriority": false }
+  { "id": "babyceo-trell", "name": "babyceo trell", "location": "memphis", "descriptor": "memphis drill", "genres": ["memphis", "aggressive", "dark trap"], "isCredit": false, "isPriority": false }
 ]

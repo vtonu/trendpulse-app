@@ -1,4 +1,4 @@
-# React + TypeScript + Vite + shadcn/ui (v1.0.3)
+# React + TypeScript + Vite + shadcn/ui (v1.0.4)
 
 This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
 
