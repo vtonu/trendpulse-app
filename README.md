@@ -2,7 +2,7 @@
 
 This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/d26e78e5-c1fa-4362-b824-fe8b7fc19817" />
+<img width="2443" height="1232" alt="OnPaste 20260721-235943" src="https://github.com/user-attachments/assets/2928a03d-7ee5-40ee-a22e-bb24e81bcd03" />
 
 ## Adding components
 
