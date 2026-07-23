@@ -24,8 +24,14 @@ export function App() {
   })
   const [lastUpdated, setLastUpdated] = useState(localTime)
   const rankedArtists = useMemo(() => rankArtists(artists, range), [artists, range])
-  const [selectedId, setSelectedId] = useState(() => rankArtists(initialArtists, "24h")[0].id)
-  const selectedArtist = rankedArtists.find((artist) => artist.id === selectedId) ?? rankedArtists[0]
+  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const selectedArtist =
+    (selectedId ? rankedArtists.find((artist) => artist.id === selectedId) : undefined) ?? rankedArtists[0]
+
+  function handleRangeChange(nextRange: TimeRange) {
+    setRange(nextRange)
+    setSelectedId(null)
+  }
 
   useEffect(() => {
     const controller = new AbortController()
@@ -76,7 +82,7 @@ export function App() {
     <main className="min-h-svh px-4 py-8 sm:px-8 sm:py-12">
       <div className="mx-auto flex w-full max-w-xl flex-col gap-10">
         <TrendPulseHeader lastUpdated={lastUpdated} />
-        <TimeRangeTabs value={range} onChange={setRange} />
+        <TimeRangeTabs value={range} onChange={handleRangeChange} />
         <TopTrendingList artists={rankedArtists} range={range} selectedId={selectedArtist.id} onSelect={setSelectedId} />
         <MarketOverview artist={selectedArtist} range={range} />
       </div>

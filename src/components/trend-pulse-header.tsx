@@ -1,8 +1,15 @@
 import { Activity } from "lucide-react"
+import { useTheme } from "@/components/theme-provider"
 
 type TrendPulseHeaderProps = { lastUpdated: string }
 
 export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
+  const { setTheme } = useTheme()
+
+  function toggleTheme() {
+    setTheme(document.documentElement.classList.contains("dark") ? "light" : "dark")
+  }
+
   return (
     <header className="flex items-start justify-between gap-5 border-b border-border pb-8">
       <div>
@@ -19,9 +26,9 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
           <Activity className="size-3 text-primary" />
           updated daily
         </div>
-        <div>{lastUpdated}</div>
+        <div className="text-foreground">{lastUpdated}</div>
         <div>
-          press <kbd>d</kbd> to toggle dark mode
+          press '<button type="button" onClick={toggleTheme} className="underline decoration-muted-foreground/50 underline-offset-2 hover:text-foreground focus-visible:outline-none focus-visible:text-foreground" aria-label="toggle dark mode">d</button>' to toggle dark mode
         </div>
       </div>
     </header>
