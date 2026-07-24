@@ -7,23 +7,23 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-    --background: oklch(1 0 0);
+    --background: oklch(0.975 0.008 95);
     --foreground: oklch(0.147 0.004 49.25);
     --card: oklch(1 0 0);
     --card-foreground: oklch(0.147 0.004 49.25);
-    --popover: oklch(1 0 0);
+    --popover: oklch(0.985 0.006 95);
     --popover-foreground: oklch(0.147 0.004 49.25);
-    --primary: oklch(0.585 0.19 130.5);
+    --primary: oklch(0.49 0.17 130.5);
     --primary-foreground: oklch(0.985 0.001 106.423);
     --secondary: oklch(0.967 0.001 286.375);
     --secondary-foreground: oklch(0.21 0.006 285.885);
     --muted: oklch(0.97 0.001 106.424);
-    --muted-foreground: oklch(0.553 0.013 58.071);
+    --muted-foreground: oklch(0.47 0.018 58.071);
     --accent: oklch(0.97 0.001 106.424);
     --accent-foreground: oklch(0.216 0.006 56.043);
     --destructive: oklch(0.577 0.245 27.325);
-    --border: oklch(0.923 0.003 48.717);
-    --input: oklch(0.923 0.003 48.717);
+    --border: oklch(0.865 0.012 80);
+    --input: oklch(0.865 0.012 80);
     --ring: oklch(0.709 0.01 56.259);
     --chart-1: oklch(0.897 0.196 126.665);
     --chart-2: oklch(0.768 0.233 130.85);
@@ -158,6 +158,21 @@ button { cursor: pointer; }
 
 .trend-scroll::-webkit-scrollbar {
   display: none;
+}
+
+@media (hover: hover) {
+  .metric-help:hover > [role="tooltip"] {
+    opacity: 1;
+  }
+}
+
+.metric-help:focus-visible {
+  outline: none;
+  color: var(--foreground);
+}
+
+.metric-help:focus-visible > [role="tooltip"] {
+  opacity: 1;
 }
 
 @media (prefers-reduced-motion: reduce) {

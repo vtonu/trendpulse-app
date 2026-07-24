@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { MarketOverview } from "@/components/market-overview"
 import { TimeRangeTabs } from "@/components/time-range-tabs"
 import { TopTrendingList } from "@/components/top-trending-list"
@@ -25,12 +25,23 @@ export function App() {
   const [lastUpdated, setLastUpdated] = useState(localTime)
   const rankedArtists = useMemo(() => rankArtists(artists, range), [artists, range])
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const marketOverviewRef = useRef<HTMLDivElement>(null)
   const selectedArtist =
     (selectedId ? rankedArtists.find((artist) => artist.id === selectedId) : undefined) ?? rankedArtists[0]
 
   function handleRangeChange(nextRange: TimeRange) {
     setRange(nextRange)
     setSelectedId(null)
+  }
+
+  function handleArtistSelect(id: string) {
+    setSelectedId(id)
+
+    if (window.matchMedia("(max-width: 639px)").matches) {
+      window.requestAnimationFrame(() => {
+        marketOverviewRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })
+      })
+    }
   }
 
   useEffect(() => {
@@ -83,8 +94,14 @@ export function App() {
       <div className="mx-auto flex w-full max-w-xl flex-col gap-10">
         <TrendPulseHeader lastUpdated={lastUpdated} />
         <TimeRangeTabs value={range} onChange={handleRangeChange} />
-        <TopTrendingList artists={rankedArtists} range={range} selectedId={selectedArtist.id} onSelect={setSelectedId} />
-        <MarketOverview artist={selectedArtist} range={range} />
+        <TopTrendingList artists={rankedArtists} range={range} selectedId={selectedArtist.id} onSelect={handleArtistSelect} />
+        <div ref={marketOverviewRef} className="scroll-mt-4">
+          <MarketOverview artist={selectedArtist} range={range} />
+        </div>
+        <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-border pt-4 font-heading text-[9px] tracking-wide text-muted-foreground">
+          <p>made for producers by <a className="text-foreground transition-colors hover:text-primary" href="https://www.instagram.com/prodqualitymusic" target="_blank" rel="noreferrer">quality</a></p>
+          <a className="text-foreground transition-colors hover:text-primary" href="https://buymeacoffee.com/prodbyquality" target="_blank" rel="noreferrer">buy me a coffee</a>
+        </footer>
       </div>
     </main>
   )
