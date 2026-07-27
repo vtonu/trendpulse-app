@@ -41,6 +41,7 @@ export function MetricRow({
   return (
     <div className="flex items-center justify-between border-b border-border py-3 last:border-b-0">
       <span
+        data-cuelume-hover="whisper"
         className="metric-help relative text-xs text-muted-foreground"
         tabIndex={0}
       >

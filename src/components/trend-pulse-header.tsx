@@ -7,7 +7,9 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
   const { setTheme } = useTheme()
 
   function toggleTheme() {
-    setTheme(document.documentElement.classList.contains("dark") ? "light" : "dark")
+    setTheme(
+      document.documentElement.classList.contains("dark") ? "light" : "dark"
+    )
   }
 
   return (
@@ -28,7 +30,17 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
         </div>
         <div className="text-foreground">{lastUpdated}</div>
         <div>
-          press '<button type="button" onClick={toggleTheme} className="underline decoration-muted-foreground/50 underline-offset-2 hover:text-foreground focus-visible:outline-none focus-visible:text-foreground" aria-label="toggle dark mode">d</button>' to toggle dark mode
+          press '
+          <button
+            type="button"
+            data-cuelume-toggle
+            onClick={toggleTheme}
+            className="underline decoration-muted-foreground/50 underline-offset-2 hover:text-foreground focus-visible:text-foreground focus-visible:outline-none"
+            aria-label="toggle dark mode "
+          >
+            d
+          </button>
+          ' to toggle dark mode
         </div>
       </div>
     </header>
