@@ -31,7 +31,7 @@ export function TrendRow({
       onClick={onSelect}
       className={cn(
         "group grid w-full grid-cols-[2rem_minmax(0,1fr)_auto_2.2rem] items-center gap-2 border-b border-border px-3 py-4 text-left transition-colors last:border-b-0 hover:bg-muted/40",
-        selected && "bg-primary/6]"
+        selected && "bg-primary/6"
       )}
     >
       <span className="font-heading text-[10px] text-muted-foreground">
