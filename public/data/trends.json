@@ -1,21 +1,20 @@
 {
-  "updatedAt": "2026-07-31T14:39:14.457Z",
+  "updatedAt": "2026-08-01T13:58:55.043Z",
   "source": "youtube",
   "artists": [
     {
       "id": "future",
-      "demand": 95,
+      "demand": 92,
       "competition": 69,
-      "momentum": 28,
-      "opportunity": 59,
+      "momentum": 15,
+      "opportunity": 53,
       "status": "cooling down",
       "sampleSize": 100,
       "change24h": -60,
       "change7d": -60,
-      "change30d": -8.4,
-      "change90d": 0,
+      "change30d": -2.5,
+      "change90d": -3.2,
       "history24h": [
-        48,
         52,
         56,
         55,
@@ -26,7 +25,8 @@
         50,
         51,
         54,
-        56
+        56,
+        50
       ],
       "history7d": [
         48,
@@ -41,7 +41,8 @@
         50,
         51,
         54,
-        56
+        56,
+        50
       ],
       "history30d": [
         48,
@@ -56,7 +57,8 @@
         50,
         51,
         54,
-        56
+        56,
+        50
       ],
       "history90d": [
         48,
@@ -71,23 +73,23 @@
         50,
         51,
         54,
-        56
+        56,
+        50
       ]
     },
     {
       "id": "southside",
-      "demand": 90,
+      "demand": 87,
       "competition": 69,
-      "momentum": 81,
-      "opportunity": 75,
+      "momentum": 80,
+      "opportunity": 73,
       "status": "rising fast",
       "sampleSize": 100,
       "change24h": -60,
-      "change7d": 44.7,
+      "change7d": 35,
       "change30d": 60,
-      "change90d": 9.3,
+      "change90d": -3.4,
       "history24h": [
-        71,
         71,
         75,
         70,
@@ -98,7 +100,8 @@
         70,
         64,
         57,
-        72
+        72,
+        71
       ],
       "history7d": [
         71,
@@ -112,7 +115,8 @@
         70,
         64,
         57,
-        72
+        72,
+        71
       ],
       "history30d": [
         71,
@@ -126,7 +130,8 @@
         70,
         64,
         57,
-        72
+        72,
+        71
       ],
       "history90d": [
         71,
@@ -140,23 +145,23 @@
         70,
         64,
         57,
-        72
+        72,
+        71
       ]
     },
     {
       "id": "baby-walkdown",
-      "demand": 56,
+      "demand": 48,
       "competition": 69,
-      "momentum": 40,
-      "opportunity": 45,
+      "momentum": 54,
+      "opportunity": 47,
       "status": "stable",
-      "sampleSize": 99,
-      "change24h": -18.9,
-      "change7d": -60,
-      "change30d": -7.3,
-      "change90d": 0,
+      "sampleSize": 98,
+      "change24h": 34.6,
+      "change7d": -49.4,
+      "change30d": 42.2,
+      "change90d": -15.4,
       "history24h": [
-        43,
         51,
         46,
         46,
@@ -167,7 +172,8 @@
         39,
         39,
         45,
-        44
+        44,
+        46
       ],
       "history7d": [
         43,
@@ -182,7 +188,8 @@
         39,
         39,
         45,
-        44
+        44,
+        46
       ],
       "history30d": [
         43,
@@ -197,7 +204,8 @@
         39,
         39,
         45,
-        44
+        44,
+        46
       ],
       "history90d": [
         43,
@@ -212,23 +220,23 @@
         39,
         39,
         45,
-        44
+        44,
+        46
       ]
     },
     {
       "id": "rodslime",
-      "demand": 64,
+      "demand": 61,
       "competition": 40,
-      "momentum": 65,
-      "opportunity": 64,
+      "momentum": 63,
+      "opportunity": 62,
       "status": "stable",
-      "sampleSize": 73,
+      "sampleSize": 71,
       "change24h": -60,
-      "change7d": 14.4,
+      "change7d": 12.5,
       "change30d": 60,
-      "change90d": 28.6,
+      "change90d": -4.8,
       "history24h": [
-        52,
         49,
         46,
         43,
@@ -239,7 +247,8 @@
         42,
         41,
         48,
-        63
+        63,
+        61
       ],
       "history7d": [
         52,
@@ -254,7 +263,8 @@
         42,
         41,
         48,
-        63
+        63,
+        61
       ],
       "history30d": [
         52,
@@ -269,7 +279,8 @@
         42,
         41,
         48,
-        63
+        63,
+        61
       ],
       "history90d": [
         52,
@@ -284,23 +295,23 @@
         42,
         41,
         48,
-        63
+        63,
+        61
       ]
     },
     {
       "id": "dracbaby",
       "demand": 33,
       "competition": 38,
-      "momentum": 44,
-      "opportunity": 43,
+      "momentum": 48,
+      "opportunity": 44,
       "status": "stable",
       "sampleSize": 72,
-      "change24h": 60,
+      "change24h": 43.6,
       "change7d": -60,
       "change30d": 60,
       "change90d": 0,
       "history24h": [
-        47,
         39,
         41,
         45,
@@ -311,7 +322,8 @@
         42,
         44,
         43,
-        44
+        44,
+        46
       ],
       "history7d": [
         47,
@@ -326,7 +338,8 @@
         42,
         44,
         43,
-        44
+        44,
+        46
       ],
       "history30d": [
         47,
@@ -341,7 +354,8 @@
         42,
         44,
         43,
-        44
+        44,
+        46
       ],
       "history90d": [
         47,
@@ -356,13 +370,14 @@
         42,
         44,
         43,
-        44
+        44,
+        46
       ]
     },
     {
       "id": "fully-auto",
       "demand": 59,
-      "competition": 28,
+      "competition": 27,
       "momentum": 15,
       "opportunity": 46,
       "status": "cooling down",
@@ -372,7 +387,6 @@
       "change30d": 60,
       "change90d": 0,
       "history24h": [
-        57,
         55,
         45,
         45,
@@ -382,6 +396,7 @@
         46,
         45,
         46,
+        47,
         47,
         47
       ],
@@ -398,6 +413,7 @@
         45,
         46,
         47,
+        47,
         47
       ],
       "history30d": [
@@ -413,6 +429,7 @@
         45,
         46,
         47,
+        47,
         47
       ],
       "history90d": [
@@ -427,24 +444,24 @@
         46,
         45,
         46,
+        47,
         47,
         47
       ]
     },
     {
       "id": "babystacxzz",
-      "demand": 28,
-      "competition": 22,
+      "demand": 25,
+      "competition": 20,
       "momentum": 50,
-      "opportunity": 46,
+      "opportunity": 45,
       "status": "stable",
       "sampleSize": 8,
       "change24h": 0,
       "change7d": 0,
       "change30d": 60,
-      "change90d": 0,
+      "change90d": -11.3,
       "history24h": [
-        70,
         63,
         62,
         62,
@@ -454,6 +471,7 @@
         48,
         48,
         47,
+        48,
         48,
         48
       ],
@@ -470,6 +488,7 @@
         48,
         47,
         48,
+        48,
         48
       ],
       "history30d": [
@@ -485,6 +504,7 @@
         48,
         47,
         48,
+        48,
         48
       ],
       "history90d": [
@@ -499,6 +519,7 @@
         48,
         48,
         47,
+        48,
         48,
         48
       ]
@@ -507,16 +528,15 @@
       "id": "hopout",
       "demand": 46,
       "competition": 35,
-      "momentum": 50,
-      "opportunity": 51,
+      "momentum": 47,
+      "opportunity": 50,
       "status": "stable",
-      "sampleSize": 63,
-      "change24h": 60,
-      "change7d": -4.8,
-      "change30d": 5.2,
+      "sampleSize": 62,
+      "change24h": 0,
+      "change7d": -13.9,
+      "change30d": -6.1,
       "change90d": 0,
       "history24h": [
-        53,
         54,
         49,
         48,
@@ -527,7 +547,8 @@
         47,
         47,
         50,
-        52
+        52,
+        51
       ],
       "history7d": [
         53,
@@ -542,7 +563,8 @@
         47,
         47,
         50,
-        52
+        52,
+        51
       ],
       "history30d": [
         53,
@@ -557,7 +579,8 @@
         47,
         47,
         50,
-        52
+        52,
+        51
       ],
       "history90d": [
         53,
@@ -572,23 +595,23 @@
         47,
         47,
         50,
-        52
+        52,
+        51
       ]
     },
     {
       "id": "mac-critter",
       "demand": 43,
       "competition": 69,
-      "momentum": 45,
-      "opportunity": 41,
+      "momentum": 50,
+      "opportunity": 43,
       "status": "stable",
       "sampleSize": 100,
-      "change24h": 28.4,
+      "change24h": 60,
       "change7d": -60,
       "change30d": 39.3,
       "change90d": 0,
       "history24h": [
-        39,
         46,
         40,
         40,
@@ -599,7 +622,8 @@
         39,
         38,
         39,
-        41
+        41,
+        42
       ],
       "history7d": [
         39,
@@ -614,7 +638,8 @@
         39,
         38,
         39,
-        41
+        41,
+        42
       ],
       "history30d": [
         39,
@@ -629,7 +654,8 @@
         39,
         38,
         39,
-        41
+        41,
+        42
       ],
       "history90d": [
         39,
@@ -644,23 +670,23 @@
         39,
         38,
         39,
-        41
+        41,
+        42
       ]
     },
     {
       "id": "babylake-tj",
-      "demand": 25,
+      "demand": 23,
       "competition": 30,
-      "momentum": 82,
-      "opportunity": 54,
+      "momentum": 77,
+      "opportunity": 51,
       "status": "rising fast",
       "sampleSize": 4,
       "change24h": 0,
       "change7d": 60,
       "change30d": 0,
-      "change90d": 0,
+      "change90d": -8.3,
       "history24h": [
-        41,
         48,
         47,
         47,
@@ -671,7 +697,8 @@
         47,
         62,
         59,
-        56
+        56,
+        54
       ],
       "history7d": [
         41,
@@ -686,7 +713,8 @@
         47,
         62,
         59,
-        56
+        56,
+        54
       ],
       "history30d": [
         41,
@@ -701,7 +729,8 @@
         47,
         62,
         59,
-        56
+        56,
+        54
       ],
       "history90d": [
         41,
@@ -716,23 +745,23 @@
         47,
         62,
         59,
-        56
+        56,
+        54
       ]
     },
     {
       "id": "roddy-treyy",
       "demand": 41,
       "competition": 45,
-      "momentum": 48,
-      "opportunity": 46,
+      "momentum": 44,
+      "opportunity": 45,
       "status": "stable",
       "sampleSize": 89,
-      "change24h": 60,
+      "change24h": -12.4,
       "change7d": -60,
-      "change30d": 35.5,
+      "change30d": 20.3,
       "change90d": 0,
       "history24h": [
-        47,
         47,
         45,
         46,
@@ -743,7 +772,8 @@
         37,
         39,
         45,
-        47
+        47,
+        46
       ],
       "history7d": [
         47,
@@ -757,7 +787,8 @@
         37,
         39,
         45,
-        47
+        47,
+        46
       ],
       "history30d": [
         47,
@@ -771,7 +802,8 @@
         37,
         39,
         45,
-        47
+        47,
+        46
       ],
       "history90d": [
         47,
@@ -785,13 +817,14 @@
         37,
         39,
         45,
-        47
+        47,
+        46
       ]
     },
     {
       "id": "pso-spark",
-      "demand": 21,
-      "competition": 22,
+      "demand": 20,
+      "competition": 20,
       "momentum": 50,
       "opportunity": 43,
       "status": "stable",
@@ -799,9 +832,8 @@
       "change24h": 0,
       "change7d": 0,
       "change30d": 0,
-      "change90d": 0,
+      "change90d": -4.9,
       "history24h": [
-        36,
         45,
         45,
         45,
@@ -812,7 +844,8 @@
         45,
         45,
         45,
-        45
+        45,
+        46
       ],
       "history7d": [
         36,
@@ -827,7 +860,8 @@
         45,
         45,
         45,
-        45
+        45,
+        46
       ],
       "history30d": [
         36,
@@ -842,7 +876,8 @@
         45,
         45,
         45,
-        45
+        45,
+        46
       ],
       "history90d": [
         36,
@@ -857,25 +892,25 @@
         45,
         45,
         45,
-        45
+        45,
+        46
       ]
     },
     {
       "id": "dee-mula",
-      "demand": 36,
+      "demand": 38,
       "competition": 43,
-      "momentum": 42,
-      "opportunity": 42,
+      "momentum": 52,
+      "opportunity": 47,
       "status": "stable",
-      "sampleSize": 79,
+      "sampleSize": 77,
       "change24h": 60,
       "change7d": -60,
-      "change30d": 25.3,
-      "change90d": 0,
+      "change30d": 51.1,
+      "change90d": 5.4,
       "history24h": [
         40,
         40,
-        40,
         39,
         40,
         41,
@@ -884,7 +919,8 @@
         42,
         42,
         42,
-        43
+        43,
+        48
       ],
       "history7d": [
         40,
@@ -898,7 +934,8 @@
         42,
         42,
         42,
-        43
+        43,
+        48
       ],
       "history30d": [
         40,
@@ -912,7 +949,8 @@
         42,
         42,
         42,
-        43
+        43,
+        48
       ],
       "history90d": [
         40,
@@ -926,23 +964,23 @@
         42,
         42,
         42,
-        43
+        43,
+        48
       ]
     },
     {
       "id": "babyceo-trell",
-      "demand": 38,
+      "demand": 36,
       "competition": 33,
-      "momentum": 30,
-      "opportunity": 41,
+      "momentum": 35,
+      "opportunity": 42,
       "status": "cooling down",
-      "sampleSize": 55,
-      "change24h": 0,
+      "sampleSize": 54,
+      "change24h": -60,
       "change7d": -60,
-      "change30d": 47.9,
-      "change90d": 0,
+      "change30d": 56.6,
+      "change90d": -5.4,
       "history24h": [
-        41,
         41,
         42,
         42,
@@ -953,7 +991,8 @@
         38,
         41,
         41,
-        42
+        42,
+        43
       ],
       "history7d": [
         41,
@@ -967,7 +1006,8 @@
         38,
         41,
         41,
-        42
+        42,
+        43
       ],
       "history30d": [
         41,
@@ -981,7 +1021,8 @@
         38,
         41,
         41,
-        42
+        42,
+        43
       ],
       "history90d": [
         41,
@@ -995,7 +1036,8 @@
         38,
         41,
         41,
-        42
+        42,
+        43
       ]
     },
     {
@@ -1006,10 +1048,10 @@
       "opportunity": 47,
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
+      "change24h": 0,
       "change7d": -60,
-      "change30d": 22,
-      "change90d": -9.6,
+      "change30d": 24.2,
+      "change90d": 0,
       "history24h": [
         53,
         53,
@@ -1021,6 +1063,7 @@
         46,
         47,
         48,
+        45,
         45
       ],
       "history7d": [
@@ -1034,6 +1077,7 @@
         46,
         47,
         48,
+        45,
         45
       ],
       "history30d": [
@@ -1047,6 +1091,7 @@
         46,
         47,
         48,
+        45,
         45
       ],
       "history90d": [
@@ -1060,17 +1105,18 @@
         46,
         47,
         48,
+        45,
         45
       ]
     },
     {
       "id": "ync-traislime",
       "demand": 30,
-      "competition": 22,
+      "competition": 20,
       "momentum": 50,
       "opportunity": 47,
       "status": "stable",
-      "sampleSize": 11,
+      "sampleSize": 12,
       "change24h": 0,
       "change7d": 0,
       "change30d": -60,
@@ -1086,7 +1132,8 @@
         49,
         49,
         49,
-        49
+        49,
+        50
       ],
       "history7d": [
         49,
@@ -1099,7 +1146,8 @@
         49,
         49,
         49,
-        49
+        49,
+        50
       ],
       "history30d": [
         49,
@@ -1112,7 +1160,8 @@
         49,
         49,
         49,
-        49
+        49,
+        50
       ],
       "history90d": [
         49,
@@ -1125,21 +1174,22 @@
         49,
         49,
         49,
-        49
+        49,
+        50
       ]
     },
     {
       "id": "doubleg-fatt",
-      "demand": 21,
-      "competition": 22,
+      "demand": 28,
+      "competition": 27,
       "momentum": 50,
-      "opportunity": 43,
+      "opportunity": 45,
       "status": "stable",
-      "sampleSize": 0,
+      "sampleSize": 1,
       "change24h": 0,
       "change7d": 0,
       "change30d": 0,
-      "change90d": 0,
+      "change90d": 28.6,
       "history24h": [
         45,
         45,
@@ -1151,7 +1201,8 @@
         45,
         45,
         45,
-        45
+        45,
+        47
       ],
       "history7d": [
         45,
@@ -1164,7 +1215,8 @@
         45,
         45,
         45,
-        45
+        45,
+        47
       ],
       "history30d": [
         45,
@@ -1177,7 +1229,8 @@
         45,
         45,
         45,
-        45
+        45,
+        47
       ],
       "history90d": [
         45,
@@ -1190,21 +1243,22 @@
         45,
         45,
         45,
-        45
+        45,
+        47
       ]
     },
     {
       "id": "baby-shiesty",
-      "demand": 51,
+      "demand": 56,
       "competition": 69,
-      "momentum": 15,
-      "opportunity": 34,
+      "momentum": 17,
+      "opportunity": 37,
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
+      "change24h": -5.5,
       "change7d": -60,
-      "change30d": -47.1,
-      "change90d": -5.7,
+      "change30d": -38.1,
+      "change90d": 9.3,
       "history24h": [
         35,
         35,
@@ -1216,7 +1270,8 @@
         39,
         38,
         35,
-        33
+        33,
+        36
       ],
       "history7d": [
         35,
@@ -1229,7 +1284,8 @@
         39,
         38,
         35,
-        33
+        33,
+        36
       ],
       "history30d": [
         35,
@@ -1242,7 +1298,8 @@
         39,
         38,
         35,
-        33
+        33,
+        36
       ],
       "history90d": [
         35,
@@ -1255,21 +1312,22 @@
         39,
         38,
         35,
-        33
+        33,
+        36
       ]
     },
     {
       "id": "ken-carson",
-      "demand": 72,
+      "demand": 69,
       "competition": 69,
-      "momentum": 41,
-      "opportunity": 53,
-      "status": "stable",
+      "momentum": 35,
+      "opportunity": 50,
+      "status": "cooling down",
       "sampleSize": 100,
       "change24h": 0,
       "change7d": -60,
-      "change30d": 28.9,
-      "change90d": 4.3,
+      "change30d": 20,
+      "change90d": -4.3,
       "history24h": [
         48,
         48,
@@ -1281,7 +1339,8 @@
         50,
         49,
         47,
-        51
+        51,
+        48
       ],
       "history7d": [
         48,
@@ -1294,7 +1353,8 @@
         50,
         49,
         47,
-        51
+        51,
+        48
       ],
       "history30d": [
         48,
@@ -1307,7 +1367,8 @@
         50,
         49,
         47,
-        51
+        51,
+        48
       ],
       "history90d": [
         48,
@@ -1320,21 +1381,22 @@
         50,
         49,
         47,
-        51
+        51,
+        48
       ]
     },
     {
       "id": "nettspend",
-      "demand": 67,
+      "demand": 77,
       "competition": 69,
-      "momentum": 15,
-      "opportunity": 42,
+      "momentum": 31,
+      "opportunity": 52,
       "status": "cooling down",
       "sampleSize": 100,
       "change24h": -60,
       "change7d": -60,
-      "change30d": -22,
-      "change90d": -16.4,
+      "change30d": 0.7,
+      "change90d": 13.9,
       "history24h": [
         44,
         44,
@@ -1346,7 +1408,8 @@
         42,
         48,
         49,
-        40
+        40,
+        49
       ],
       "history7d": [
         44,
@@ -1359,7 +1422,8 @@
         42,
         48,
         49,
-        40
+        40,
+        49
       ],
       "history30d": [
         44,
@@ -1372,7 +1436,8 @@
         42,
         48,
         49,
-        40
+        40,
+        49
       ],
       "history90d": [
         44,
@@ -1385,21 +1450,22 @@
         42,
         48,
         49,
-        40
+        40,
+        49
       ]
     },
     {
       "id": "lil-double-0",
-      "demand": 82,
+      "demand": 85,
       "competition": 69,
-      "momentum": 39,
-      "opportunity": 57,
+      "momentum": 46,
+      "opportunity": 61,
       "status": "stable",
-      "sampleSize": 100,
-      "change24h": -58.4,
+      "sampleSize": 99,
+      "change24h": 11.5,
       "change7d": -60,
-      "change30d": 0,
-      "change90d": 10.3,
+      "change30d": 14.9,
+      "change90d": 3.6,
       "history24h": [
         49,
         49,
@@ -1411,7 +1477,8 @@
         48,
         53,
         51,
-        54
+        54,
+        58
       ],
       "history7d": [
         49,
@@ -1424,7 +1491,8 @@
         48,
         53,
         51,
-        54
+        54,
+        58
       ],
       "history30d": [
         49,
@@ -1437,7 +1505,8 @@
         48,
         53,
         51,
-        54
+        54,
+        58
       ],
       "history90d": [
         49,
@@ -1450,21 +1519,22 @@
         48,
         53,
         51,
-        54
+        54,
+        58
       ]
     },
     {
       "id": "est-gee",
-      "demand": 85,
+      "demand": 82,
       "competition": 69,
-      "momentum": 70,
-      "opportunity": 69,
-      "status": "rising fast",
+      "momentum": 64,
+      "opportunity": 66,
+      "status": "stable",
       "sampleSize": 100,
       "change24h": -60,
-      "change7d": 30,
+      "change7d": -14.3,
       "change30d": 60,
-      "change90d": 0,
+      "change90d": -3.6,
       "history24h": [
         60,
         60,
@@ -1476,7 +1546,8 @@
         54,
         61,
         58,
-        66
+        66,
+        63
       ],
       "history7d": [
         60,
@@ -1489,7 +1560,8 @@
         54,
         61,
         58,
-        66
+        66,
+        63
       ],
       "history30d": [
         60,
@@ -1502,7 +1574,8 @@
         54,
         61,
         58,
-        66
+        66,
+        63
       ],
       "history90d": [
         60,
@@ -1515,21 +1588,22 @@
         54,
         61,
         58,
-        66
+        66,
+        63
       ]
     },
     {
       "id": "key-glock",
-      "demand": 77,
+      "demand": 67,
       "competition": 69,
-      "momentum": 40,
-      "opportunity": 55,
-      "status": "stable",
+      "momentum": 27,
+      "opportunity": 46,
+      "status": "cooling down",
       "sampleSize": 100,
       "change24h": -60,
       "change7d": -60,
-      "change30d": 10.5,
-      "change90d": 6.7,
+      "change30d": -21.3,
+      "change90d": -13.9,
       "history24h": [
         46,
         46,
@@ -1541,7 +1615,8 @@
         41,
         47,
         49,
-        53
+        53,
+        44
       ],
       "history7d": [
         46,
@@ -1554,7 +1629,8 @@
         41,
         47,
         49,
-        53
+        53,
+        44
       ],
       "history30d": [
         46,
@@ -1567,7 +1643,8 @@
         41,
         47,
         49,
-        53
+        53,
+        44
       ],
       "history90d": [
         46,
@@ -1580,21 +1657,22 @@
         41,
         47,
         49,
-        53
+        53,
+        44
       ]
     },
     {
       "id": "moneybagg-yo",
-      "demand": 48,
+      "demand": 54,
       "competition": 69,
-      "momentum": 38,
-      "opportunity": 41,
+      "momentum": 23,
+      "opportunity": 39,
       "status": "cooling down",
       "sampleSize": 100,
       "change24h": -60,
       "change7d": -60,
-      "change30d": 60,
-      "change90d": -6.1,
+      "change30d": 27.2,
+      "change90d": 11.8,
       "history24h": [
         51,
         51,
@@ -1606,7 +1684,8 @@
         42,
         38,
         42,
-        40
+        40,
+        37
       ],
       "history7d": [
         51,
@@ -1619,7 +1698,8 @@
         42,
         38,
         42,
-        40
+        40,
+        37
       ],
       "history30d": [
         51,
@@ -1632,7 +1712,8 @@
         42,
         38,
         42,
-        40
+        40,
+        37
       ],
       "history90d": [
         51,
@@ -1645,21 +1726,22 @@
         42,
         38,
         42,
-        40
+        40,
+        37
       ]
     },
     {
       "id": "pooh-shiesty",
-      "demand": 61,
+      "demand": 64,
       "competition": 69,
       "momentum": 26,
-      "opportunity": 43,
+      "opportunity": 44,
       "status": "cooling down",
       "sampleSize": 100,
       "change24h": -60,
       "change7d": -60,
-      "change30d": 9.5,
-      "change90d": 0,
+      "change30d": 12,
+      "change90d": 4.8,
       "history24h": [
         37,
         37,
@@ -1671,7 +1753,8 @@
         38,
         43,
         43,
-        41
+        41,
+        42
       ],
       "history7d": [
         37,
@@ -1684,7 +1767,8 @@
         38,
         43,
         43,
-        41
+        41,
+        42
       ],
       "history30d": [
         37,
@@ -1697,7 +1781,8 @@
         38,
         43,
         43,
-        41
+        41,
+        42
       ],
       "history90d": [
         37,
@@ -1710,86 +1795,91 @@
         38,
         43,
         43,
-        41
+        41,
+        42
       ]
     },
     {
       "id": "young-thug",
-      "demand": 92,
+      "demand": 95,
+      "competition": 69,
+      "momentum": 61,
+      "opportunity": 70,
+      "status": "stable",
+      "sampleSize": 99,
+      "change24h": -60,
+      "change7d": -8.9,
+      "change30d": 60,
+      "change90d": 3.2,
+      "history24h": [
+        53,
+        53,
+        58,
+        56,
+        50,
+        56,
+        56,
+        64,
+        63,
+        65,
+        62,
+        67
+      ],
+      "history7d": [
+        53,
+        53,
+        58,
+        56,
+        50,
+        56,
+        56,
+        64,
+        63,
+        65,
+        62,
+        67
+      ],
+      "history30d": [
+        53,
+        53,
+        58,
+        56,
+        50,
+        56,
+        56,
+        64,
+        63,
+        65,
+        62,
+        67
+      ],
+      "history90d": [
+        53,
+        53,
+        58,
+        56,
+        50,
+        56,
+        56,
+        64,
+        63,
+        65,
+        62,
+        67
+      ]
+    },
+    {
+      "id": "playboi-carti",
+      "demand": 90,
       "competition": 69,
       "momentum": 51,
       "opportunity": 65,
       "status": "stable",
       "sampleSize": 100,
       "change24h": -60,
-      "change7d": -59.3,
-      "change30d": 60,
-      "change90d": 0,
-      "history24h": [
-        53,
-        53,
-        58,
-        56,
-        50,
-        56,
-        56,
-        64,
-        63,
-        65,
-        62
-      ],
-      "history7d": [
-        53,
-        53,
-        58,
-        56,
-        50,
-        56,
-        56,
-        64,
-        63,
-        65,
-        62
-      ],
-      "history30d": [
-        53,
-        53,
-        58,
-        56,
-        50,
-        56,
-        56,
-        64,
-        63,
-        65,
-        62
-      ],
-      "history90d": [
-        53,
-        53,
-        58,
-        56,
-        50,
-        56,
-        56,
-        64,
-        63,
-        65,
-        62
-      ]
-    },
-    {
-      "id": "playboi-carti",
-      "demand": 87,
-      "competition": 69,
-      "momentum": 55,
-      "opportunity": 65,
-      "status": "stable",
-      "sampleSize": 100,
-      "change24h": -60,
       "change7d": -60,
-      "change30d": 56.7,
-      "change90d": -3.4,
+      "change30d": 47.7,
+      "change90d": 3.4,
       "history24h": [
         52,
         52,
@@ -1801,6 +1891,7 @@
         65,
         66,
         63,
+        62,
         62
       ],
       "history7d": [
@@ -1814,6 +1905,7 @@
         65,
         66,
         63,
+        62,
         62
       ],
       "history30d": [
@@ -1827,6 +1919,7 @@
         65,
         66,
         63,
+        62,
         62
       ],
       "history90d": [
@@ -1840,21 +1933,22 @@
         65,
         66,
         63,
+        62,
         62
       ]
     },
     {
       "id": "destroy-lonely",
-      "demand": 69,
+      "demand": 72,
       "competition": 69,
-      "momentum": 55,
-      "opportunity": 57,
+      "momentum": 60,
+      "opportunity": 60,
       "status": "stable",
       "sampleSize": 100,
       "change24h": -60,
-      "change7d": -60,
+      "change7d": -50.9,
       "change30d": 60,
-      "change90d": 2.9,
+      "change90d": 4.3,
       "history24h": [
         55,
         55,
@@ -1866,7 +1960,8 @@
         57,
         53,
         57,
-        55
+        55,
+        58
       ],
       "history7d": [
         55,
@@ -1879,7 +1974,8 @@
         57,
         53,
         57,
-        55
+        55,
+        58
       ],
       "history30d": [
         55,
@@ -1892,7 +1988,8 @@
         57,
         53,
         57,
-        55
+        55,
+        58
       ],
       "history90d": [
         55,
@@ -1905,21 +2002,22 @@
         57,
         53,
         57,
-        55
+        55,
+        58
       ]
     },
     {
       "id": "homixide-gang",
       "demand": 74,
       "competition": 69,
-      "momentum": 48,
-      "opportunity": 56,
+      "momentum": 50,
+      "opportunity": 57,
       "status": "stable",
       "sampleSize": 100,
       "change24h": -60,
-      "change7d": -60,
-      "change30d": 60,
-      "change90d": -4,
+      "change7d": -44.8,
+      "change30d": 49.7,
+      "change90d": 0,
       "history24h": [
         48,
         48,
@@ -1931,7 +2029,8 @@
         59,
         58,
         62,
-        54
+        54,
+        55
       ],
       "history7d": [
         48,
@@ -1944,7 +2043,8 @@
         59,
         58,
         62,
-        54
+        54,
+        55
       ],
       "history30d": [
         48,
@@ -1957,7 +2057,8 @@
         59,
         58,
         62,
-        54
+        54,
+        55
       ],
       "history90d": [
         48,
@@ -1970,21 +2071,22 @@
         59,
         58,
         62,
-        54
+        54,
+        55
       ]
     },
     {
       "id": "glokk40spaz",
-      "demand": 54,
+      "demand": 51,
       "competition": 69,
-      "momentum": 69,
-      "opportunity": 55,
+      "momentum": 72,
+      "opportunity": 54,
       "status": "rising fast",
-      "sampleSize": 100,
+      "sampleSize": 99,
       "change24h": -60,
-      "change7d": 29.4,
+      "change7d": 21,
       "change30d": 60,
-      "change90d": -16.9,
+      "change90d": -5.7,
       "history24h": [
         60,
         60,
@@ -1996,7 +2098,8 @@
         53,
         54,
         55,
-        54
+        54,
+        53
       ],
       "history7d": [
         60,
@@ -2009,7 +2112,8 @@
         53,
         54,
         55,
-        54
+        54,
+        53
       ],
       "history30d": [
         60,
@@ -2022,7 +2126,8 @@
         53,
         54,
         55,
-        54
+        54,
+        53
       ],
       "history90d": [
         60,
@@ -2035,7 +2140,8 @@
         53,
         54,
         55,
-        54
+        54,
+        53
       ]
     }
   ]
