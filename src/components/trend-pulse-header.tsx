@@ -19,16 +19,22 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
           {/* <span className="live-dot size-1.5 rounded-full bg-primary" /> */}
           ranking type beats
         </div>
-        <h1 className="font-heading text-2xl font-medium tracking-[-0.06em]">
+        <h1 className="flex items-center gap-2 font-heading text-2xl font-medium tracking-[-0.06em] whitespace-nowrap">
           trend pulse
+          <span
+            className="flex size-6 items-center justify-center border border-primary/40 bg-primary/[0.06]"
+            aria-hidden="true"
+          >
+            <Activity className="size-4 text-primary" />
+          </span>
         </h1>
       </div>
       <div className="text-right font-heading text-[10px] leading-5 text-muted-foreground">
         <div className="flex items-center justify-end gap-1.5 text-foreground">
           <Activity className="size-3 text-primary" />
-          updated daily
+          last updated <div className="text-foreground">{lastUpdated}</div>
         </div>
-        <div className="text-foreground">{lastUpdated}</div>
+
         <div>
           press '
           <button

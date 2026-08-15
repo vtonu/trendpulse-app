@@ -151,6 +151,14 @@ button { cursor: pointer; }
 .value-pop { animation: value-pop 300ms ease-out; }
 .chart-enter { animation: chart-enter 450ms ease-out; }
 
+.chart-static,
+.chart-static * {
+  pointer-events: none;
+  user-select: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 .trend-scroll {
   scrollbar-width: none;
   -ms-overflow-style: none;
