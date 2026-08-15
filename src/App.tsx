@@ -154,8 +154,8 @@ export function App() {
         <div ref={marketOverviewRef} className="scroll-mt-4">
           <MarketOverview artist={selectedArtist} range={range} />
         </div>
-        <footer className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-border pt-4 font-heading text-[9px] tracking-wide text-muted-foreground">
-          <p>
+        <footer className="grid grid-cols-1 items-center gap-x-6 gap-y-2 border-t border-border pt-4 text-center font-heading text-[9px] tracking-wide text-muted-foreground sm:grid-cols-3">
+          <p className="sm:text-left">
             made for producers by{" "}
             <a
               className="text-foreground transition-colors hover:text-primary"
@@ -168,6 +168,14 @@ export function App() {
           </p>
           <a
             className="text-foreground transition-colors hover:text-primary"
+            href="https://www.instagram.com/trendpulseapp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            instagram
+          </a>
+          <a
+            className="text-foreground transition-colors hover:text-primary sm:text-right"
             href="https://buymeacoffee.com/prodbyquality"
             target="_blank"
             rel="noreferrer"

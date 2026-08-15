@@ -2,4 +2,4 @@
 
 Trend Pulse ranks type-beat markets with daily YouTube search data. It tracks demand, competition, momentum, opportunity, and short-term change for a focused artist list.
 
-<img width="2443" height="1232" alt="Trend Pulse" src="https://github.com/user-attachments/assets/2928a03d-7ee5-40ee-a22e-bb24e81bcd03" />
+<img width="2489" height="1275" alt="trend pulse v1 1 1" src="https://github.com/user-attachments/assets/050d1982-301a-4361-a054-a2aa8aac0df2" />
