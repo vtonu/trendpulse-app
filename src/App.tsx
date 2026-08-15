@@ -171,9 +171,7 @@ export function App() {
             href="https://www.instagram.com/trendpulseapp"
             target="_blank"
             rel="noreferrer"
-          >
-            instagram
-          </a>
+          ></a>
           <a
             className="text-foreground transition-colors hover:text-primary sm:text-right"
             href="https://buymeacoffee.com/prodbyquality"
