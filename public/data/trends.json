@@ -1,48 +1,163 @@
 {
-  "updatedAt": "2026-08-16T13:03:04.171Z",
+  "updatedAt": "2026-08-17T13:09:11.884Z",
   "source": "youtube",
   "artists": [
     {
       "id": "future",
       "demand": 90,
-      "competition": 69,
+      "competition": 45,
       "momentum": 15,
-      "opportunity": 52,
+      "sustainedMomentum": 15,
+      "opportunity": 62,
+      "confidence": 100,
+      "reason": "strong demand, less competition",
       "status": "cooling down",
-      "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": -60,
+      "sampleSize": 99,
+      "change24h": -59.1,
+      "change7d": -58.7,
+      "change30d": -44.5,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 55,
+          "demand": 90,
+          "competition": 45,
+          "momentum": 15,
+          "sustainedMomentum": 15,
+          "opportunity": 62,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        56,
         49,
-        49,
-        50,
-        50,
-        49,
-        55,
-        49,
-        50,
-        50,
-        49,
-        49
+        55
       ],
       "history7d": [
-        50,
-        50,
-        56,
-        49,
-        49,
-        50,
-        50,
         49,
         55,
         49,
         50,
         50,
         49,
-        49
+        49,
+        55
       ],
       "history30d": [
         48,
@@ -73,7 +188,8 @@
         50,
         50,
         49,
-        49
+        49,
+        55
       ],
       "history90d": [
         48,
@@ -104,50 +220,162 @@
         50,
         50,
         49,
-        49
+        49,
+        55
       ]
     },
     {
       "id": "southside",
       "demand": 87,
       "competition": 69,
-      "momentum": 50,
-      "opportunity": 63,
+      "momentum": 56,
+      "sustainedMomentum": 59,
+      "opportunity": 69,
+      "confidence": 100,
+      "reason": "strong 7d growth",
       "status": "stable",
       "sampleSize": 100,
-      "change24h": -58.2,
-      "change7d": -30.2,
-      "change30d": 22.7,
+      "change24h": -55.9,
+      "change7d": 18.4,
+      "change30d": 13.3,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-20",
+          "pulse": 71
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 71
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 75
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 70
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 70
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 73
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 72
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 69
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 70
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 64
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 72
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 71
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 65
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 66
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 67
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 68
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 62,
+          "demand": 87,
+          "competition": 69,
+          "momentum": 56,
+          "sustainedMomentum": 59,
+          "opportunity": 69,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        66,
-        56,
-        48,
-        59,
-        55,
-        59,
-        67,
         60,
-        68,
-        63,
-        62,
-        60
+        62
       ],
       "history7d": [
-        65,
-        59,
-        66,
-        56,
-        48,
-        59,
-        55,
         59,
         67,
         60,
         68,
         63,
         62,
-        60
+        60,
+        62
       ],
       "history30d": [
         71,
@@ -177,7 +405,8 @@
         68,
         63,
         62,
-        60
+        60,
+        62
       ],
       "history90d": [
         71,
@@ -207,50 +436,166 @@
         68,
         63,
         62,
-        60
+        60,
+        62
       ]
     },
     {
       "id": "baby-walkdown",
-      "demand": 51,
-      "competition": 45,
-      "momentum": 35,
-      "opportunity": 46,
+      "demand": 48,
+      "competition": 69,
+      "momentum": 36,
+      "sustainedMomentum": 35,
+      "opportunity": 49,
+      "confidence": 100,
+      "reason": "24h spike",
       "status": "cooling down",
-      "sampleSize": 96,
-      "change24h": 60,
-      "change7d": -60,
-      "change30d": -8.5,
-      "change90d": 10.3,
+      "sampleSize": 100,
+      "change24h": 37.8,
+      "change7d": -50.2,
+      "change30d": -6.5,
+      "change90d": -4.5,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 40,
+          "demand": 48,
+          "competition": 69,
+          "momentum": 36,
+          "sustainedMomentum": 35,
+          "opportunity": 49,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        39,
-        37,
-        38,
-        39,
-        42,
-        43,
-        40,
-        38,
-        40,
-        40,
-        43,
-        46
+        46,
+        40
       ],
       "history7d": [
         43,
-        42,
-        39,
-        37,
-        38,
-        39,
-        42,
-        43,
         40,
         38,
         40,
         40,
         43,
-        46
+        46,
+        40
       ],
       "history30d": [
         43,
@@ -281,7 +626,8 @@
         40,
         40,
         43,
-        46
+        46,
+        40
       ],
       "history90d": [
         43,
@@ -312,50 +658,166 @@
         40,
         40,
         43,
-        46
+        46,
+        40
       ]
     },
     {
       "id": "rodslime",
-      "demand": 43,
+      "demand": 72,
       "competition": 43,
-      "momentum": 39,
-      "opportunity": 44,
-      "status": "stable",
+      "momentum": 26,
+      "sustainedMomentum": 40,
+      "opportunity": 64,
+      "confidence": 100,
+      "reason": "strong 30d growth",
+      "status": "cooling down",
       "sampleSize": 86,
-      "change24h": 60,
-      "change7d": -60,
-      "change30d": 12.2,
-      "change90d": -46.4,
+      "change24h": 51.1,
+      "change7d": -57.7,
+      "change30d": 39.9,
+      "change90d": 33.5,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 61
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 52,
+          "demand": 72,
+          "competition": 43,
+          "momentum": 26,
+          "sustainedMomentum": 40,
+          "opportunity": 64,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        48,
-        40,
-        43,
-        41,
-        44,
         45,
-        46,
-        49,
-        50,
-        49,
-        49,
-        45
+        52
       ],
       "history7d": [
-        58,
-        49,
-        48,
-        40,
-        43,
-        41,
-        44,
         45,
         46,
         49,
         50,
         49,
         49,
-        45
+        45,
+        52
       ],
       "history30d": [
         52,
@@ -386,7 +848,8 @@
         50,
         49,
         49,
-        45
+        45,
+        52
       ],
       "history90d": [
         52,
@@ -417,49 +880,165 @@
         50,
         49,
         49,
-        45
+        45,
+        52
       ]
     },
     {
       "id": "dracbaby",
       "demand": 33,
       "competition": 38,
-      "momentum": 60,
-      "opportunity": 48,
+      "momentum": 62,
+      "sustainedMomentum": 65,
+      "opportunity": 58,
+      "confidence": 96,
+      "reason": "strong 30d growth",
       "status": "stable",
-      "sampleSize": 74,
-      "change24h": 60,
-      "change7d": -11.4,
-      "change30d": 60,
+      "sampleSize": 75,
+      "change24h": 3.6,
+      "change7d": -1.9,
+      "change30d": 40.5,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 50,
+          "demand": 33,
+          "competition": 38,
+          "momentum": 62,
+          "sustainedMomentum": 65,
+          "opportunity": 58,
+          "confidence": 96
+        }
+      ],
       "history24h": [
-        44,
-        45,
-        43,
-        42,
-        42,
-        41,
-        44,
-        46,
-        47,
-        46,
-        48,
+        50,
         50
       ],
       "history7d": [
-        44,
-        45,
-        44,
-        45,
-        43,
-        42,
-        42,
         41,
         44,
         46,
         47,
         46,
         48,
+        50,
         50
       ],
       "history30d": [
@@ -491,6 +1070,7 @@
         47,
         46,
         48,
+        50,
         50
       ],
       "history90d": [
@@ -522,6 +1102,7 @@
         47,
         46,
         48,
+        50,
         50
       ]
     },
@@ -530,41 +1111,156 @@
       "demand": 54,
       "competition": 22,
       "momentum": 50,
-      "opportunity": 57,
+      "sustainedMomentum": 40,
+      "opportunity": 54,
+      "confidence": 48,
+      "reason": "30d decline",
       "status": "stable",
       "sampleSize": 46,
-      "change24h": 0,
-      "change7d": 0,
-      "change30d": -60,
+      "change24h": null,
+      "change7d": null,
+      "change30d": -42.4,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 59,
+          "demand": 54,
+          "competition": 22,
+          "momentum": 50,
+          "sustainedMomentum": 40,
+          "opportunity": 54,
+          "confidence": 48
+        }
+      ],
       "history24h": [
-        48,
-        47,
-        48,
-        46,
-        46,
-        46,
-        45,
-        44,
-        44,
-        43,
-        44,
+        59,
         59
       ],
       "history7d": [
-        49,
-        49,
-        48,
-        47,
-        48,
-        46,
-        46,
         46,
         45,
         44,
         44,
         43,
         44,
+        59,
         59
       ],
       "history30d": [
@@ -596,6 +1292,7 @@
         44,
         43,
         44,
+        59,
         59
       ],
       "history90d": [
@@ -627,50 +1324,166 @@
         44,
         43,
         44,
+        59,
         59
       ]
     },
     {
       "id": "babystacxzz",
       "demand": 28,
-      "competition": 28,
-      "momentum": 52,
-      "opportunity": 45,
+      "competition": 29,
+      "momentum": 41,
+      "sustainedMomentum": 51,
+      "opportunity": 42,
+      "confidence": 20,
+      "reason": "limited data",
       "status": "stable",
       "sampleSize": 5,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": 60,
+      "change24h": null,
+      "change7d": -54.7,
+      "change30d": 56.1,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 70
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 70
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 63
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 43,
+          "demand": 28,
+          "competition": 29,
+          "momentum": 41,
+          "sustainedMomentum": 51,
+          "opportunity": 42,
+          "confidence": 20
+        }
+      ],
       "history24h": [
-        49,
-        49,
-        49,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        47
+        47,
+        43
       ],
       "history7d": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
         47,
-        47,
-        49,
-        49,
-        49,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        48,
-        47
+        43
       ],
       "history30d": [
         70,
@@ -701,7 +1514,8 @@
         48,
         48,
         48,
-        47
+        47,
+        43
       ],
       "history90d": [
         70,
@@ -732,7 +1546,8 @@
         48,
         48,
         48,
-        47
+        47,
+        43
       ]
     },
     {
@@ -740,41 +1555,156 @@
       "demand": 38,
       "competition": 35,
       "momentum": 49,
-      "opportunity": 47,
+      "sustainedMomentum": 49,
+      "opportunity": 51,
+      "confidence": 68,
+      "reason": "mixed market signals",
       "status": "stable",
-      "sampleSize": 57,
-      "change24h": -60,
-      "change7d": -42.1,
-      "change30d": 16.5,
+      "sampleSize": 56,
+      "change24h": null,
+      "change7d": -25.6,
+      "change30d": 13.3,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 49,
+          "demand": 38,
+          "competition": 35,
+          "momentum": 49,
+          "sustainedMomentum": 49,
+          "opportunity": 51,
+          "confidence": 68
+        }
+      ],
       "history24h": [
         49,
-        52,
-        52,
-        49,
-        52,
-        45,
-        47,
-        46,
-        46,
-        49,
-        51,
         49
       ],
       "history7d": [
-        50,
-        50,
-        49,
-        52,
-        52,
-        49,
-        52,
         45,
         47,
         46,
         46,
         49,
         51,
+        49,
         49
       ],
       "history30d": [
@@ -806,6 +1736,7 @@
         46,
         49,
         51,
+        49,
         49
       ],
       "history90d": [
@@ -837,50 +1768,166 @@
         46,
         49,
         51,
+        49,
         49
       ]
     },
     {
       "id": "mac-critter",
-      "demand": 64,
+      "demand": 67,
       "competition": 69,
-      "momentum": 19,
-      "opportunity": 42,
+      "momentum": 20,
+      "sustainedMomentum": 38,
+      "opportunity": 56,
+      "confidence": 100,
+      "reason": "strong 30d growth",
       "status": "cooling down",
-      "sampleSize": 97,
-      "change24h": 59.7,
-      "change7d": -60,
-      "change30d": 60,
-      "change90d": 0,
+      "sampleSize": 100,
+      "change24h": 29.6,
+      "change7d": -58,
+      "change30d": 43.5,
+      "change90d": 3.4,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 36
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 35
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 64
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 42,
+          "demand": 67,
+          "competition": 69,
+          "momentum": 20,
+          "sustainedMomentum": 38,
+          "opportunity": 56,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        44,
-        64,
-        63,
-        42,
-        43,
-        42,
-        43,
         40,
-        42,
-        39,
-        39,
-        40
+        42
       ],
       "history7d": [
-        40,
-        45,
-        44,
-        64,
-        63,
-        42,
-        43,
         42,
         43,
         40,
         42,
         39,
         39,
-        40
+        40,
+        42
       ],
       "history30d": [
         39,
@@ -911,7 +1958,8 @@
         42,
         39,
         39,
-        40
+        40,
+        42
       ],
       "history90d": [
         39,
@@ -942,7 +1990,8 @@
         42,
         39,
         39,
-        40
+        40,
+        42
       ]
     },
     {
@@ -950,34 +1999,149 @@
       "demand": 20,
       "competition": 22,
       "momentum": 50,
-      "opportunity": 42,
+      "sustainedMomentum": 61,
+      "opportunity": 43,
+      "confidence": 13,
+      "reason": "limited data",
       "status": "stable",
       "sampleSize": 4,
-      "change24h": 0,
-      "change7d": 0,
-      "change30d": 60,
+      "change24h": null,
+      "change7d": null,
+      "change30d": 48.5,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 59
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 45,
+          "demand": 20,
+          "competition": 22,
+          "momentum": 50,
+          "sustainedMomentum": 61,
+          "opportunity": 43,
+          "confidence": 13
+        }
+      ],
       "history24h": [
-        46,
-        46,
-        46,
-        45,
-        45,
-        45,
-        45,
-        45,
-        45,
-        45,
         45,
         45
       ],
       "history7d": [
-        52,
-        52,
-        46,
-        46,
-        46,
-        45,
         45,
         45,
         45,
@@ -1016,6 +2180,7 @@
         45,
         45,
         45,
+        45,
         45
       ],
       "history90d": [
@@ -1039,6 +2204,7 @@
         46,
         46,
         46,
+        45,
         45,
         45,
         45,
@@ -1052,45 +2218,156 @@
     },
     {
       "id": "roddy-treyy",
-      "demand": 77,
+      "demand": 79,
       "competition": 40,
-      "momentum": 15,
-      "opportunity": 52,
+      "momentum": 18,
+      "sustainedMomentum": 32,
+      "opportunity": 64,
+      "confidence": 99,
+      "reason": "24h spike",
       "status": "cooling down",
-      "sampleSize": 76,
-      "change24h": 3.2,
-      "change7d": -60,
-      "change30d": 25,
-      "change90d": 0,
+      "sampleSize": 79,
+      "change24h": 30.9,
+      "change7d": -58.5,
+      "change30d": 23.3,
+      "change90d": 1.9,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-20",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 53,
+          "demand": 79,
+          "competition": 40,
+          "momentum": 18,
+          "sustainedMomentum": 32,
+          "opportunity": 64,
+          "confidence": 99
+        }
+      ],
       "history24h": [
-        40,
-        40,
-        38,
-        39,
-        40,
-        40,
-        42,
-        42,
-        42,
-        50,
         51,
-        51
+        53
       ],
       "history7d": [
-        44,
-        42,
-        40,
-        40,
-        38,
-        39,
-        40,
         40,
         42,
         42,
         42,
         50,
         51,
-        51
+        51,
+        53
       ],
       "history30d": [
         47,
@@ -1120,7 +2397,8 @@
         42,
         50,
         51,
-        51
+        51,
+        53
       ],
       "history90d": [
         47,
@@ -1150,7 +2428,8 @@
         42,
         50,
         51,
-        51
+        51,
+        53
       ]
     },
     {
@@ -1158,35 +2437,150 @@
       "demand": 25,
       "competition": 22,
       "momentum": 50,
-      "opportunity": 44,
+      "sustainedMomentum": 50,
+      "opportunity": 41,
+      "confidence": 8,
+      "reason": "limited data",
       "status": "stable",
       "sampleSize": 4,
-      "change24h": 0,
-      "change7d": 0,
-      "change30d": 0,
+      "change24h": null,
+      "change7d": null,
+      "change30d": null,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-19",
+          "pulse": 36
+        },
+        {
+          "date": "2026-07-20",
+          "pulse": 36
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 47,
+          "demand": 25,
+          "competition": 22,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 41,
+          "confidence": 8
+        }
+      ],
       "history24h": [
-        45,
-        45,
-        45,
-        45,
-        45,
-        47,
-        47,
-        47,
-        47,
-        47,
         47,
         47
       ],
       "history7d": [
-        46,
-        46,
-        45,
-        45,
-        45,
-        45,
-        45,
+        47,
         47,
         47,
         47,
@@ -1224,6 +2618,7 @@
         47,
         47,
         47,
+        47,
         47
       ],
       "history90d": [
@@ -1249,6 +2644,7 @@
         45,
         45,
         45,
+        47,
         47,
         47,
         47,
@@ -1263,41 +2659,152 @@
       "demand": 41,
       "competition": 69,
       "momentum": 43,
-      "opportunity": 40,
+      "sustainedMomentum": 43,
+      "opportunity": 48,
+      "confidence": 100,
+      "reason": "mixed market signals",
       "status": "stable",
-      "sampleSize": 99,
-      "change24h": 38.9,
-      "change7d": -60,
-      "change30d": 20.3,
+      "sampleSize": 100,
+      "change24h": 3.2,
+      "change7d": -51,
+      "change30d": 13.8,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-20",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 39,
+          "demand": 41,
+          "competition": 69,
+          "momentum": 43,
+          "sustainedMomentum": 43,
+          "opportunity": 48,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        43,
-        45,
-        44,
-        45,
-        45,
-        46,
-        44,
-        45,
-        47,
-        45,
-        46,
+        39,
         39
       ],
       "history7d": [
-        43,
-        43,
-        43,
-        45,
-        44,
-        45,
-        45,
         46,
         44,
         45,
         47,
         45,
         46,
+        39,
         39
       ],
       "history30d": [
@@ -1328,6 +2835,7 @@
         47,
         45,
         46,
+        39,
         39
       ],
       "history90d": [
@@ -1358,6 +2866,7 @@
         47,
         45,
         46,
+        39,
         39
       ]
     },
@@ -1365,43 +2874,154 @@
       "id": "babyceo-trell",
       "demand": 36,
       "competition": 33,
-      "momentum": 15,
-      "opportunity": 35,
-      "status": "cooling down",
-      "sampleSize": 53,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": -54.9,
+      "momentum": 42,
+      "sustainedMomentum": 40,
+      "opportunity": 48,
+      "confidence": 69,
+      "reason": "24h spike",
+      "status": "stable",
+      "sampleSize": 54,
+      "change24h": 57.6,
+      "change7d": -4.3,
+      "change30d": -24,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-20",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-21",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 36
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 46,
+          "demand": 36,
+          "competition": 33,
+          "momentum": 42,
+          "sustainedMomentum": 40,
+          "opportunity": 48,
+          "confidence": 69
+        }
+      ],
       "history24h": [
-        48,
-        48,
-        47,
-        46,
-        47,
-        46,
-        37,
-        37,
-        39,
-        37,
         36,
-        36
+        46
       ],
       "history7d": [
-        37,
-        51,
-        48,
-        48,
-        47,
-        46,
-        47,
         46,
         37,
         37,
         39,
         37,
         36,
-        36
+        36,
+        46
       ],
       "history30d": [
         41,
@@ -1431,7 +3051,8 @@
         39,
         37,
         36,
-        36
+        36,
+        46
       ],
       "history90d": [
         41,
@@ -1461,50 +3082,158 @@
         39,
         37,
         36,
-        36
+        36,
+        46
       ]
     },
     {
       "id": "skrilla",
-      "demand": 74,
+      "demand": 69,
       "competition": 69,
-      "momentum": 19,
-      "opportunity": 46,
+      "momentum": 16,
+      "sustainedMomentum": 17,
+      "opportunity": 50,
+      "confidence": 100,
+      "reason": "30d decline",
       "status": "cooling down",
-      "sampleSize": 97,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": -51.7,
-      "change90d": 0,
+      "sampleSize": 100,
+      "change24h": -53.9,
+      "change7d": -57.8,
+      "change30d": -37.9,
+      "change90d": -5.2,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 41,
+          "demand": 69,
+          "competition": 69,
+          "momentum": 16,
+          "sustainedMomentum": 17,
+          "opportunity": 50,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        40,
-        49,
-        48,
-        50,
-        48,
-        49,
-        50,
-        49,
-        45,
-        46,
-        45,
-        44
+        44,
+        41
       ],
       "history7d": [
-        45,
-        40,
-        40,
-        49,
-        48,
-        50,
-        48,
         49,
         50,
         49,
         45,
         46,
         45,
-        44
+        44,
+        41
       ],
       "history30d": [
         53,
@@ -1533,7 +3262,8 @@
         45,
         46,
         45,
-        44
+        44,
+        41
       ],
       "history90d": [
         53,
@@ -1562,47 +3292,155 @@
         45,
         46,
         45,
-        44
+        44,
+        41
       ]
     },
     {
       "id": "ync-traislime",
       "demand": 30,
-      "competition": 30,
+      "competition": 29,
       "momentum": 15,
-      "opportunity": 33,
+      "sustainedMomentum": 15,
+      "opportunity": 34,
+      "confidence": 29,
+      "reason": "limited data",
       "status": "cooling down",
       "sampleSize": 15,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": -60,
+      "change24h": null,
+      "change7d": -51.6,
+      "change30d": -56.6,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 35,
+          "demand": 30,
+          "competition": 29,
+          "momentum": 15,
+          "sustainedMomentum": 15,
+          "opportunity": 34,
+          "confidence": 29
+        }
+      ],
       "history24h": [
-        50,
-        50,
-        50,
-        49,
-        49,
-        49,
-        49,
-        49,
-        49,
-        35,
         35,
         35
       ],
       "history7d": [
-        50,
-        50,
-        50,
-        50,
-        50,
         49,
         49,
         49,
         49,
-        49,
-        49,
+        35,
         35,
         35,
         35
@@ -1634,6 +3472,7 @@
         49,
         35,
         35,
+        35,
         35
       ],
       "history90d": [
@@ -1661,6 +3500,7 @@
         49,
         49,
         49,
+        35,
         35,
         35,
         35
@@ -1671,34 +3511,141 @@
       "demand": 23,
       "competition": 22,
       "momentum": 50,
-      "opportunity": 43,
+      "sustainedMomentum": 50,
+      "opportunity": 40,
+      "confidence": 6,
+      "reason": "limited data",
       "status": "stable",
       "sampleSize": 1,
-      "change24h": 0,
-      "change7d": 0,
-      "change30d": 0,
+      "change24h": null,
+      "change7d": null,
+      "change30d": null,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 46,
+          "demand": 23,
+          "competition": 22,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 40,
+          "confidence": 6
+        }
+      ],
       "history24h": [
-        45,
-        45,
-        45,
-        46,
-        46,
-        46,
-        46,
-        46,
-        46,
-        46,
         46,
         46
       ],
       "history7d": [
-        47,
-        47,
-        45,
-        45,
-        45,
-        46,
         46,
         46,
         46,
@@ -1735,6 +3682,7 @@
         46,
         46,
         46,
+        46,
         46
       ],
       "history90d": [
@@ -1756,6 +3704,7 @@
         45,
         45,
         45,
+        46,
         46,
         46,
         46,
@@ -1772,39 +3721,146 @@
       "demand": 56,
       "competition": 69,
       "momentum": 15,
-      "opportunity": 37,
+      "sustainedMomentum": 19,
+      "opportunity": 47,
+      "confidence": 100,
+      "reason": "30d decline",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": 60,
-      "change7d": -60,
-      "change30d": -50.2,
+      "change24h": -34.3,
+      "change7d": -57.4,
+      "change30d": -30.3,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 35
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 35
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 35
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 40
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 35
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 33
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 32
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 35,
+          "demand": 56,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 19,
+          "opportunity": 47,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        35,
-        35,
-        35,
-        35,
-        32,
-        35,
-        41,
-        37,
-        37,
-        35,
         35,
         35
       ],
       "history7d": [
-        37,
-        36,
-        35,
-        35,
-        35,
-        35,
-        32,
         35,
         41,
         37,
         37,
+        35,
         35,
         35,
         35
@@ -1836,6 +3892,7 @@
         37,
         35,
         35,
+        35,
         35
       ],
       "history90d": [
@@ -1863,6 +3920,7 @@
         41,
         37,
         37,
+        35,
         35,
         35,
         35
@@ -1870,45 +3928,152 @@
     },
     {
       "id": "ken-carson",
-      "demand": 69,
+      "demand": 51,
       "competition": 69,
-      "momentum": 24,
-      "opportunity": 46,
+      "momentum": 15,
+      "sustainedMomentum": 20,
+      "opportunity": 44,
+      "confidence": 95,
+      "reason": "30d decline",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": -5.2,
-      "change90d": 30,
+      "change24h": null,
+      "change7d": -57.7,
+      "change30d": -22.5,
+      "change90d": -21.5,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 57
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 33,
+          "demand": 51,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 20,
+          "opportunity": 44,
+          "confidence": 95
+        }
+      ],
       "history24h": [
-        48,
-        47,
-        40,
-        51,
-        53,
-        46,
-        45,
-        39,
-        39,
-        35,
-        35,
-        44
+        44,
+        33
       ],
       "history7d": [
-        51,
-        52,
-        48,
-        47,
-        40,
-        51,
-        53,
         46,
         45,
         39,
         39,
         35,
         35,
-        44
+        44,
+        33
       ],
       "history30d": [
         48,
@@ -1937,7 +4102,8 @@
         39,
         35,
         35,
-        44
+        44,
+        33
       ],
       "history90d": [
         48,
@@ -1966,7 +4132,8 @@
         39,
         35,
         35,
-        44
+        44,
+        33
       ]
     },
     {
@@ -1974,39 +4141,146 @@
       "demand": 61,
       "competition": 69,
       "momentum": 15,
-      "opportunity": 39,
+      "sustainedMomentum": 20,
+      "opportunity": 48,
+      "confidence": 95,
+      "reason": "30d decline",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": -30.3,
+      "change24h": null,
+      "change7d": -58,
+      "change30d": -26.1,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 37,
+          "demand": 61,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 20,
+          "opportunity": 48,
+          "confidence": 95
+        }
+      ],
       "history24h": [
-        43,
-        43,
-        42,
-        39,
-        40,
-        41,
-        43,
-        37,
-        39,
-        37,
         37,
         37
       ],
       "history7d": [
-        43,
-        46,
-        43,
-        43,
-        42,
-        39,
-        40,
         41,
         43,
         37,
         39,
+        37,
         37,
         37,
         37
@@ -2038,6 +4312,7 @@
         39,
         37,
         37,
+        37,
         37
       ],
       "history90d": [
@@ -2065,6 +4340,7 @@
         43,
         37,
         39,
+        37,
         37,
         37,
         37
@@ -2072,44 +4348,151 @@
     },
     {
       "id": "lil-double-0",
-      "demand": 82,
+      "demand": 85,
       "competition": 69,
-      "momentum": 17,
-      "opportunity": 49,
+      "momentum": 15,
+      "sustainedMomentum": 23,
+      "opportunity": 58,
+      "confidence": 100,
+      "reason": "24h spike",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": 47.7,
-      "change7d": -60,
-      "change30d": 14.4,
-      "change90d": 0,
+      "change24h": 33.9,
+      "change7d": -58.1,
+      "change30d": -11.3,
+      "change90d": 2.7,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 47,
+          "demand": 85,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 23,
+          "opportunity": 58,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        53,
-        59,
-        59,
         47,
-        54,
-        46,
-        47,
-        45,
-        50,
-        49,
-        46,
         47
       ],
       "history7d": [
-        55,
-        56,
-        53,
-        59,
-        59,
-        47,
-        54,
         46,
         47,
         45,
         50,
         49,
         46,
+        47,
         47
       ],
       "history30d": [
@@ -2139,6 +4522,7 @@
         50,
         49,
         46,
+        47,
         47
       ],
       "history90d": [
@@ -2168,50 +4552,158 @@
         50,
         49,
         46,
+        47,
         47
       ]
     },
     {
       "id": "est-gee",
-      "demand": 79,
+      "demand": 82,
       "competition": 69,
-      "momentum": 61,
-      "opportunity": 63,
+      "momentum": 52,
+      "sustainedMomentum": 53,
+      "opportunity": 66,
+      "confidence": 100,
+      "reason": "strong 30d growth",
       "status": "stable",
-      "sampleSize": 99,
-      "change24h": -60,
-      "change7d": -45.5,
-      "change30d": 60,
-      "change90d": 9.3,
+      "sampleSize": 100,
+      "change24h": -58.6,
+      "change7d": -38.8,
+      "change30d": 33.2,
+      "change90d": 2.8,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 60
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 60
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 58
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 58
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 61
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 58
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 66
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 69
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 61
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 61
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 59,
+          "demand": 82,
+          "competition": 69,
+          "momentum": 52,
+          "sustainedMomentum": 53,
+          "opportunity": 66,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        69,
-        60,
-        55,
-        63,
         61,
-        56,
-        63,
-        62,
-        60,
-        54,
-        53,
-        61
+        59
       ],
       "history7d": [
-        62,
-        58,
-        69,
-        60,
-        55,
-        63,
-        61,
         56,
         63,
         62,
         60,
         54,
         53,
-        61
+        61,
+        59
       ],
       "history30d": [
         60,
@@ -2240,7 +4732,8 @@
         60,
         54,
         53,
-        61
+        61,
+        59
       ],
       "history90d": [
         60,
@@ -2269,50 +4762,158 @@
         60,
         54,
         53,
-        61
+        61,
+        59
       ]
     },
     {
       "id": "key-glock",
-      "demand": 67,
+      "demand": 77,
       "competition": 69,
-      "momentum": 32,
-      "opportunity": 48,
+      "momentum": 15,
+      "sustainedMomentum": 24,
+      "opportunity": 55,
+      "confidence": 95,
+      "reason": "steady demand",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 45,
-      "change90d": -16.4,
+      "change24h": null,
+      "change7d": -57.4,
+      "change30d": -7.7,
+      "change90d": 10.3,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 41
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 49
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 44,
+          "demand": 77,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 24,
+          "opportunity": 55,
+          "confidence": 95
+        }
+      ],
       "history24h": [
-        47,
-        44,
         46,
-        50,
-        48,
-        46,
-        45,
-        43,
-        46,
-        49,
-        51,
-        46
+        44
       ],
       "history7d": [
-        41,
-        45,
-        47,
-        44,
-        46,
-        50,
-        48,
         46,
         45,
         43,
         46,
         49,
         51,
-        46
+        46,
+        44
       ],
       "history30d": [
         46,
@@ -2341,7 +4942,8 @@
         46,
         49,
         51,
-        46
+        46,
+        44
       ],
       "history90d": [
         46,
@@ -2370,50 +4972,158 @@
         46,
         49,
         51,
-        46
+        46,
+        44
       ]
     },
     {
       "id": "moneybagg-yo",
-      "demand": 48,
+      "demand": 46,
       "competition": 69,
-      "momentum": 39,
-      "opportunity": 41,
-      "status": "stable",
+      "momentum": 21,
+      "sustainedMomentum": 21,
+      "opportunity": 44,
+      "confidence": 100,
+      "reason": "30d decline",
+      "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": -4.3,
-      "change90d": 0,
+      "change24h": -57.9,
+      "change7d": -55.2,
+      "change30d": -32,
+      "change90d": -3.2,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 51
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 44
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 45
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 42
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 33
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 34
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 38
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 34,
+          "demand": 46,
+          "competition": 69,
+          "momentum": 21,
+          "sustainedMomentum": 21,
+          "opportunity": 44,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        47,
-        47,
-        43,
-        38,
-        38,
-        36,
-        34,
-        43,
-        38,
-        36,
-        40,
-        41
+        41,
+        34
       ],
       "history7d": [
-        33,
-        38,
-        47,
-        47,
-        43,
-        38,
-        38,
         36,
         34,
         43,
         38,
         36,
         40,
-        41
+        41,
+        34
       ],
       "history30d": [
         51,
@@ -2442,7 +5152,8 @@
         38,
         36,
         40,
-        41
+        41,
+        34
       ],
       "history90d": [
         51,
@@ -2471,7 +5182,8 @@
         38,
         36,
         40,
-        41
+        41,
+        34
       ]
     },
     {
@@ -2479,39 +5191,146 @@
       "demand": 95,
       "competition": 69,
       "momentum": 15,
-      "opportunity": 54,
+      "sustainedMomentum": 39,
+      "opportunity": 65,
+      "confidence": 95,
+      "reason": "strong 30d growth",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 60,
+      "change24h": null,
+      "change7d": -59.2,
+      "change30d": 58.6,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 36
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 37
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 39
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 38
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 43
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 37
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 36
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 79
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 45
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 79
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 57
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 51,
+          "demand": 95,
+          "competition": 69,
+          "momentum": 15,
+          "sustainedMomentum": 39,
+          "opportunity": 65,
+          "confidence": 95
+        }
+      ],
       "history24h": [
-        36,
-        40,
-        35,
-        48,
-        36,
-        79,
-        45,
-        79,
-        57,
-        51,
         51,
         51
       ],
       "history7d": [
-        37,
-        37,
-        36,
-        40,
-        35,
-        48,
-        36,
         79,
         45,
         79,
         57,
+        51,
         51,
         51,
         51
@@ -2543,6 +5362,7 @@
         57,
         51,
         51,
+        51,
         51
       ],
       "history90d": [
@@ -2570,6 +5390,7 @@
         45,
         79,
         57,
+        51,
         51,
         51,
         51
@@ -2579,43 +5400,150 @@
       "id": "young-thug",
       "demand": 92,
       "competition": 69,
-      "momentum": 47,
-      "opportunity": 64,
+      "momentum": 44,
+      "sustainedMomentum": 48,
+      "opportunity": 68,
+      "confidence": 100,
+      "reason": "strong 30d growth",
       "status": "stable",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 60,
+      "change24h": -58.8,
+      "change7d": -46.3,
+      "change30d": 34.3,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 58
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 64
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 63
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 65
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 67
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 65
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 63
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 64
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 64
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 66
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 60
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 61
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 61
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 60,
+          "demand": 92,
+          "competition": 69,
+          "momentum": 44,
+          "sustainedMomentum": 48,
+          "opportunity": 68,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        53,
-        62,
-        63,
-        64,
-        59,
-        64,
-        66,
-        60,
-        54,
-        49,
         61,
-        61
+        60
       ],
       "history7d": [
-        59,
-        60,
-        53,
-        62,
-        63,
-        64,
-        59,
         64,
         66,
         60,
         54,
         49,
         61,
-        61
+        61,
+        60
       ],
       "history30d": [
         53,
@@ -2644,7 +5572,8 @@
         54,
         49,
         61,
-        61
+        61,
+        60
       ],
       "history90d": [
         53,
@@ -2673,50 +5602,158 @@
         54,
         49,
         61,
-        61
+        61,
+        60
       ]
     },
     {
       "id": "playboi-carti",
-      "demand": 85,
+      "demand": 74,
       "competition": 69,
-      "momentum": 29,
+      "momentum": 24,
+      "sustainedMomentum": 28,
       "opportunity": 55,
+      "confidence": 95,
+      "reason": "steady demand",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": 0,
-      "change7d": -60,
-      "change30d": 13.8,
-      "change90d": 0,
+      "change24h": null,
+      "change7d": -55.2,
+      "change30d": -8.7,
+      "change90d": -10.3,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 65
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 66
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 63
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 62
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 75
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 75
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 68
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 76
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 75
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 52
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 46,
+          "demand": 74,
+          "competition": 69,
+          "momentum": 24,
+          "sustainedMomentum": 28,
+          "opportunity": 55,
+          "confidence": 95
+        }
+      ],
       "history24h": [
-        68,
-        76,
-        75,
-        51,
-        56,
-        48,
-        55,
-        53,
-        49,
-        48,
-        53,
-        52
+        52,
+        46
       ],
       "history7d": [
-        75,
-        56,
-        68,
-        76,
-        75,
-        51,
-        56,
         48,
         55,
         53,
         49,
         48,
         53,
-        52
+        52,
+        46
       ],
       "history30d": [
         52,
@@ -2745,7 +5782,8 @@
         49,
         48,
         53,
-        52
+        52,
+        46
       ],
       "history90d": [
         52,
@@ -2774,50 +5812,158 @@
         49,
         48,
         53,
-        52
+        52,
+        46
       ]
     },
     {
       "id": "destroy-lonely",
-      "demand": 72,
+      "demand": 64,
       "competition": 69,
-      "momentum": 36,
-      "opportunity": 51,
-      "status": "cooling down",
+      "momentum": 39,
+      "sustainedMomentum": 45,
+      "opportunity": 57,
+      "confidence": 100,
+      "reason": "strong 30d growth",
+      "status": "stable",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 47.3,
-      "change90d": 7.2,
+      "change24h": -57.9,
+      "change7d": -51.2,
+      "change30d": 33.5,
+      "change90d": -8.8,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 57
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 59
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 50
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 47,
+          "demand": 64,
+          "competition": 69,
+          "momentum": 39,
+          "sustainedMomentum": 45,
+          "opportunity": 57,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        59,
         49,
-        55,
-        56,
-        54,
-        50,
-        51,
-        54,
-        49,
-        46,
-        49,
-        49
+        47
       ],
       "history7d": [
-        56,
-        56,
-        59,
-        49,
-        55,
-        56,
-        54,
         50,
         51,
         54,
         49,
         46,
         49,
-        49
+        49,
+        47
       ],
       "history30d": [
         55,
@@ -2846,7 +5992,8 @@
         49,
         46,
         49,
-        49
+        49,
+        47
       ],
       "history90d": [
         55,
@@ -2875,50 +6022,158 @@
         49,
         46,
         49,
-        49
+        49,
+        47
       ]
     },
     {
       "id": "homixide-gang",
       "demand": 59,
       "competition": 69,
-      "momentum": 26,
-      "opportunity": 42,
+      "momentum": 20,
+      "sustainedMomentum": 26,
+      "opportunity": 50,
+      "confidence": 100,
+      "reason": "mixed market signals",
       "status": "cooling down",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 7.5,
+      "change24h": -58.8,
+      "change7d": -56,
+      "change30d": -7.3,
       "change90d": 0,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 48
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 56
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 52
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 59
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 58
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 62
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 58
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 56
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 55
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 46
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 42
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 40
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 38,
+          "demand": 59,
+          "competition": 69,
+          "momentum": 20,
+          "sustainedMomentum": 26,
+          "opportunity": 50,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        54,
-        54,
-        55,
-        46,
-        43,
-        46,
-        43,
-        46,
-        43,
-        42,
-        39,
-        40
+        40,
+        38
       ],
       "history7d": [
-        54,
-        56,
-        54,
-        54,
-        55,
-        46,
-        43,
         46,
         43,
         46,
         43,
         42,
         39,
-        40
+        40,
+        38
       ],
       "history30d": [
         48,
@@ -2947,7 +6202,8 @@
         43,
         42,
         39,
-        40
+        40,
+        38
       ],
       "history90d": [
         48,
@@ -2976,50 +6232,158 @@
         43,
         42,
         39,
-        40
+        40,
+        38
       ]
     },
     {
       "id": "glokk40spaz",
-      "demand": 46,
+      "demand": 43,
       "competition": 69,
-      "momentum": 41,
-      "opportunity": 41,
+      "momentum": 44,
+      "sustainedMomentum": 49,
+      "opportunity": 51,
+      "confidence": 100,
+      "reason": "strong 30d growth",
       "status": "stable",
       "sampleSize": 100,
-      "change24h": -60,
-      "change7d": -60,
-      "change30d": 46.4,
-      "change90d": 6.7,
+      "change24h": -58.9,
+      "change7d": -53.7,
+      "change30d": 41,
+      "change90d": -5,
+      "dailySnapshots": [
+        {
+          "date": "2026-07-21",
+          "pulse": 60
+        },
+        {
+          "date": "2026-07-22",
+          "pulse": 60
+        },
+        {
+          "date": "2026-07-23",
+          "pulse": 46
+        },
+        {
+          "date": "2026-07-24",
+          "pulse": 50
+        },
+        {
+          "date": "2026-07-25",
+          "pulse": 47
+        },
+        {
+          "date": "2026-07-26",
+          "pulse": 57
+        },
+        {
+          "date": "2026-07-27",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-28",
+          "pulse": 53
+        },
+        {
+          "date": "2026-07-29",
+          "pulse": 54
+        },
+        {
+          "date": "2026-07-30",
+          "pulse": 55
+        },
+        {
+          "date": "2026-07-31",
+          "pulse": 54
+        },
+        {
+          "date": "2026-08-01",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-02",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-03",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-04",
+          "pulse": 51
+        },
+        {
+          "date": "2026-08-05",
+          "pulse": 53
+        },
+        {
+          "date": "2026-08-06",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-07",
+          "pulse": 47
+        },
+        {
+          "date": "2026-08-08",
+          "pulse": 49
+        },
+        {
+          "date": "2026-08-09",
+          "pulse": 48
+        },
+        {
+          "date": "2026-08-10",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-11",
+          "pulse": 43
+        },
+        {
+          "date": "2026-08-12",
+          "pulse": 35
+        },
+        {
+          "date": "2026-08-13",
+          "pulse": 39
+        },
+        {
+          "date": "2026-08-14",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-15",
+          "pulse": 44
+        },
+        {
+          "date": "2026-08-16",
+          "pulse": 41
+        },
+        {
+          "date": "2026-08-17",
+          "pulse": 40,
+          "demand": 43,
+          "competition": 69,
+          "momentum": 44,
+          "sustainedMomentum": 49,
+          "opportunity": 51,
+          "confidence": 100
+        }
+      ],
       "history24h": [
-        53,
-        48,
-        47,
-        49,
-        48,
-        44,
-        43,
-        35,
-        39,
         41,
-        44,
-        41
+        40
       ],
       "history7d": [
-        51,
-        51,
-        53,
-        48,
-        47,
-        49,
-        48,
         44,
         43,
         35,
         39,
         41,
         44,
-        41
+        41,
+        40
       ],
       "history30d": [
         60,
@@ -3048,7 +6412,8 @@
         39,
         41,
         44,
-        41
+        41,
+        40
       ],
       "history90d": [
         60,
@@ -3077,7 +6442,8 @@
         39,
         41,
         44,
-        41
+        41,
+        40
       ]
     }
   ]
