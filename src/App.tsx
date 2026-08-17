@@ -80,12 +80,44 @@ export function App() {
         }
 
         setArtists((current) =>
-          current.map((artist) => ({
-            ...artist,
-            ...payload.artists?.find(
+          current.map((artist) => {
+            const liveArtist = payload.artists?.find(
               (liveArtist) => liveArtist.id === artist.id
-            ),
-          }))
+            )
+            if (!liveArtist) return artist
+
+            const sampleSize = liveArtist.sampleSize ?? artist.sampleSize
+            const confidence = liveArtist.confidence ?? Math.round(
+              Math.min(100, ((sampleSize ?? 0) / 60) * 100) * 0.7 + 15
+            )
+            const sustainedMomentum = liveArtist.sustainedMomentum ?? liveArtist.momentum ?? artist.sustainedMomentum
+            const demand = liveArtist.demand ?? artist.demand
+            const competition = liveArtist.competition ?? artist.competition
+            const opportunity = liveArtist.confidence === undefined
+              ? Math.round(demand * 0.35 + sustainedMomentum * 0.3 + (100 - competition) * 0.2 + confidence * 0.15)
+              : liveArtist.opportunity ?? artist.opportunity
+            const change24h = "change24h" in liveArtist ? liveArtist.change24h ?? null : artist.change24h
+            const change7d = "change7d" in liveArtist ? liveArtist.change7d ?? null : artist.change7d
+            const change30d = "change30d" in liveArtist ? liveArtist.change30d ?? null : artist.change30d
+            const reason = liveArtist.reason ?? (
+              confidence < 40 ? "limited data" :
+              change30d !== null && change30d >= 25 ? "strong 30d growth" :
+              change24h !== null && change24h >= 25 ? "24h spike" :
+              change7d !== null && change7d >= 15 ? "strong 7d growth" :
+              demand >= 70 ? "steady demand" :
+              change30d !== null && change30d <= -20 ? "30d decline" :
+              "mixed market signals"
+            )
+
+            return {
+              ...artist,
+              ...liveArtist,
+              confidence,
+              sustainedMomentum,
+              opportunity,
+              reason,
+            }
+          })
         )
       } catch (error) {
         if (!(error instanceof DOMException && error.name === "AbortError")) {

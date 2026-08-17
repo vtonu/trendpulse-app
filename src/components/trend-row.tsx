@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils"
 type TrendRowProps = {
   artist: Artist
   rank: number
-  change: number
+  change: number | null
   selected: boolean
   onSelect: () => void
 }
@@ -17,7 +17,7 @@ export function TrendRow({
   selected,
   onSelect,
 }: TrendRowProps) {
-  const direction = change > 0 ? "up" : change < 0 ? "down" : "stable"
+  const direction = change !== null && change > 0 ? "up" : change !== null && change < 0 ? "down" : "stable"
   const hasLowData = artist.sampleSize !== undefined && artist.sampleSize < 10
   const Icon =
     direction === "up"
@@ -58,7 +58,7 @@ export function TrendRow({
         )}
       >
         <Icon className="size-3" />
-        {Math.round(Math.abs(change))}%
+        {change === null ? "—" : `${Math.round(Math.abs(change))}%`}
       </span>
       <span
         key={artist.score}

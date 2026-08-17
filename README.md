@@ -1,4 +1,4 @@
-# trend pulse (v1.1.1)
+# trend pulse (v1.1.2)
 
 Trend Pulse ranks type-beat markets with daily YouTube search data. It tracks demand, competition, momentum, opportunity, and short-term change for a focused artist list.
 

@@ -4,14 +4,17 @@ export type Artist = {
   id: string
   name: string
   score: number
-  change24h: number
-  change7d: number
-  change30d: number
-  change90d: number
+  change24h: number | null
+  change7d: number | null
+  change30d: number | null
+  change90d: number | null
   demand: number
   competition: number
   momentum: number
+  sustainedMomentum: number
   opportunity: number
+  confidence: number
+  reason: string
   status: "strong opportunity" | "rising fast" | "saturated" | "stable" | "cooling down"
   genres: string[]
   location: string
@@ -23,6 +26,16 @@ export type Artist = {
   history30d: number[]
   history90d: number[]
   sampleSize?: number
+  dailySnapshots?: Array<{
+    date: string
+    pulse: number
+    demand?: number
+    competition?: number
+    momentum?: number
+    sustainedMomentum?: number
+    opportunity?: number
+    confidence?: number
+  }>
 }
 
 const history = (start: number, points: number, drift: number, seed: number) =>
@@ -30,7 +43,7 @@ const history = (start: number, points: number, drift: number, seed: number) =>
     Math.max(8, Math.min(100, Math.round((start + index * drift + Math.sin(index * 1.7 + seed) * 3) * 10) / 10))
   )
 
-type ArtistSeed = Omit<Artist, "score" | "opportunity" | "location" | "descriptor" | "history24h" | "history7d" | "history30d" | "history90d">
+type ArtistSeed = Omit<Artist, "score" | "opportunity" | "confidence" | "reason" | "sustainedMomentum" | "location" | "descriptor" | "history24h" | "history7d" | "history30d" | "history90d">
 
 const seeds: ArtistSeed[] = [
   { id: "future", name: "future", change24h: 12, change7d: 18, change30d: 27, change90d: 34, demand: 94, competition: 79, momentum: 86, status: "rising fast", genres: ["future type beat", "dark trap", "melodic dark"], isCredit: false, isPriority: true },
@@ -83,11 +96,14 @@ export const artists: Artist[] = registry.map((registryArtist, index) => {
     ...artist,
     ...registryArtist,
     score: 0,
-    opportunity: Math.round(artist.demand * 0.45 + artist.momentum * 0.35 + (100 - artist.competition) * 0.2),
-    history24h: history(artist.demand - artist.change24h / 3, 12, artist.change24h / 32, index),
-    history7d: history(artist.demand - artist.change7d / 3, 14, artist.change7d / 40, index),
-    history30d: history(artist.demand - artist.change30d / 2.5, 15, artist.change30d / 38, index),
-    history90d: history(artist.demand - artist.change90d / 2, 18, artist.change90d / 40, index),
+    sustainedMomentum: artist.momentum,
+    confidence: 65,
+    reason: artist.momentum >= 70 ? "strong recent growth" : artist.demand >= 70 ? "steady demand" : "mixed market signals",
+    opportunity: Math.round(artist.demand * 0.35 + artist.momentum * 0.3 + (100 - artist.competition) * 0.2 + 65 * 0.15),
+    history24h: history(artist.demand - (artist.change24h ?? 0) / 3, 12, (artist.change24h ?? 0) / 32, index),
+    history7d: history(artist.demand - (artist.change7d ?? 0) / 3, 14, (artist.change7d ?? 0) / 40, index),
+    history30d: history(artist.demand - (artist.change30d ?? 0) / 2.5, 15, (artist.change30d ?? 0) / 38, index),
+    history90d: history(artist.demand - (artist.change90d ?? 0) / 2, 18, (artist.change90d ?? 0) / 40, index),
   }
 })
 import registryData from "@/data/artist-registry.json"

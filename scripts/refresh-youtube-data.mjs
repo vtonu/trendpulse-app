@@ -26,9 +26,10 @@ if (!API_KEY) {
 const clamp = (value, min = 0, max = 100) => Math.min(max, Math.max(min, value))
 const average = (values) => values.length ? values.reduce((total, value) => total + value, 0) / values.length : 0
 const percentChange = (current, previous) => {
-  if (current <= 0 || previous <= 0) return 0
+  if (current <= 0 || previous <= 0) return null
   const midpoint = (current + previous) / 2
-  return clamp(Math.round(((current - previous) / midpoint) * 1000) / 10, -60, 60)
+  const rawChange = ((current - previous) / midpoint) * 100
+  return Math.round(Math.tanh(rawChange / 80) * 600) / 10
 }
 
 async function youtube(path, params) {
@@ -82,10 +83,60 @@ function momentumScore(ratio) {
   return Math.round(clamp(50 + Math.log2(ratio) * 18, 15, 95))
 }
 
-function appendHistory(previous, value, length) {
-  const history = Array.isArray(previous) ? previous : []
-  const next = [...history, value].slice(-length)
-  return next.length === 1 ? [value, value] : next
+function dateKey(value) {
+  return new Date(value).toISOString().slice(0, 10)
+}
+
+function migrateSnapshots(previous, updatedAt) {
+  if (Array.isArray(previous?.dailySnapshots)) return previous.dailySnapshots
+  if (!Array.isArray(previous?.history90d)) return []
+
+  const lastDate = new Date(updatedAt ?? Date.now())
+  return previous.history90d.map((pulse, index, history) => {
+    const date = new Date(lastDate)
+    date.setUTCDate(date.getUTCDate() - (history.length - 1 - index))
+    return { date: dateKey(date), pulse }
+  })
+}
+
+function appendSnapshot(previous, snapshot, updatedAt) {
+  const history = migrateSnapshots(previous, updatedAt)
+    .filter((item) => item?.date && Number.isFinite(item?.pulse))
+  const withoutToday = history.filter((item) => item.date !== snapshot.date)
+  return [...withoutToday, snapshot].slice(-90)
+}
+
+function historyForDays(snapshots, days) {
+  const cutoff = new Date(`${snapshots.at(-1)?.date}T00:00:00.000Z`)
+  cutoff.setUTCDate(cutoff.getUTCDate() - days)
+  const values = snapshots
+    .filter((item) => new Date(`${item.date}T00:00:00.000Z`) >= cutoff)
+    .map((item) => item.pulse)
+  if (values.length === 1) return [values[0], values[0]]
+  return values
+}
+
+function confidenceScore(sampleSize, recentSize, cohorts) {
+  const sampleCoverage = clamp((sampleSize / 60) * 100)
+  const recentCoverage = clamp((recentSize / 30) * 100)
+  const timeCoverage = (cohorts.filter((size) => size > 0).length / cohorts.length) * 100
+  return Math.round(sampleCoverage * 0.5 + recentCoverage * 0.3 + timeCoverage * 0.2)
+}
+
+function changeSignal(value) {
+  if (value === null) return 50
+  return clamp(50 + value * 0.75, 15, 95)
+}
+
+function signalReason({ confidence, change24h, change7d, change30d, demand, competition }) {
+  if (confidence < 40) return "limited data"
+  if (change30d !== null && change30d >= 25) return "strong 30d growth"
+  if (change24h !== null && change24h >= 25) return "24h spike"
+  if (change7d !== null && change7d >= 15) return "strong 7d growth"
+  if (demand >= 70 && competition <= 55) return "strong demand, less competition"
+  if (demand >= 70) return "steady demand"
+  if (change30d !== null && change30d <= -20) return "30d decline"
+  return "mixed market signals"
 }
 
 function getStatus(demand, competition, momentum, opportunity) {
@@ -114,12 +165,15 @@ async function collectArtist(artist) {
   const engagement = average(metrics.map((item) => item.engagement))
   const recentActivity = activity(0, 7)
   const baselineActivity = activity(7, 90)
+  const cohortSizes = [cohort(0, 1).length, cohort(1, 7).length, cohort(7, 30).length, cohort(30, 90).length]
   return {
     ...artist,
     rawDemand: Math.log1p(topVelocity) + Math.log1p(engagement) * 0.2,
     rawCompetition: recent.length,
     rawMomentum: recentActivity > 0 && baselineActivity > 0 ? recentActivity / baselineActivity : 1,
     sampleSize: unique.length,
+    recentSize: recent.length,
+    cohortSizes,
     changes: {
       change24h: percentChange(activity(0, 1), activity(1, 7)),
       change7d: percentChange(activity(0, 7), activity(7, 30)),
@@ -144,22 +198,48 @@ async function main() {
     const demand = scale(demandValues, artist.rawDemand)
     const competition = scale(competitionValues, artist.rawCompetition, 18, 90)
     const momentum = momentumScore(artist.rawMomentum)
-    const opportunity = Math.round(demand * 0.45 + momentum * 0.35 + (100 - competition) * 0.2)
+    const confidence = confidenceScore(artist.sampleSize, artist.recentSize, artist.cohortSizes)
+    const sustainedMomentum = Math.round(
+      momentum * 0.5 +
+      changeSignal(artist.changes.change7d) * 0.2 +
+      changeSignal(artist.changes.change30d) * 0.3
+    )
+    const opportunity = Math.round(
+      demand * 0.35 +
+      sustainedMomentum * 0.3 +
+      (100 - competition) * 0.2 +
+      confidence * 0.15
+    )
     const pulse = Math.round(demand * 0.4 + momentum * 0.35 + (100 - competition) * 0.25)
+    const dailySnapshots = appendSnapshot(old, {
+      date: dateKey(Date.now()),
+      pulse,
+      demand,
+      competition,
+      momentum,
+      sustainedMomentum,
+      opportunity,
+      confidence,
+    }, previous.updatedAt)
+    const reason = signalReason({ confidence, ...artist.changes, demand, competition })
     return {
       id: artist.id,
       demand,
       competition,
       momentum,
+      sustainedMomentum,
       opportunity,
+      confidence,
+      reason,
       status: getStatus(demand, competition, momentum, opportunity),
       sampleSize: artist.sampleSize,
       ...artist.changes,
-      change90d: old?.demand ? percentChange(demand, old.demand) : 0,
-      history24h: appendHistory(old?.history24h, pulse, 12),
-      history7d: appendHistory(old?.history7d, pulse, 14),
-      history30d: appendHistory(old?.history30d, pulse, 30),
-      history90d: appendHistory(old?.history90d, pulse, 90),
+      change90d: old?.demand ? percentChange(demand, old.demand) : null,
+      dailySnapshots,
+      history24h: historyForDays(dailySnapshots, 1),
+      history7d: historyForDays(dailySnapshots, 7),
+      history30d: historyForDays(dailySnapshots, 30),
+      history90d: historyForDays(dailySnapshots, 90),
     }
   })
 
