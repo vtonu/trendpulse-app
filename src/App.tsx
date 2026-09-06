@@ -13,16 +13,7 @@ import { rankArtists } from "@/lib/trend-score"
 export function App() {
   const [range, setRange] = useState<TimeRange>("24h")
   const [artists, setArtists] = useState(initialArtists)
-  const [localTime] = useState(() => {
-    const now = new Date()
-    const date = new Intl.DateTimeFormat(undefined, {
-      month: "short",
-      day: "numeric",
-      year: "numeric",
-    }).format(now)
-    return date.toLowerCase()
-  })
-  const [lastUpdated, setLastUpdated] = useState(localTime)
+  const [lastUpdated, setLastUpdated] = useState<string | null>(null)
   const rankedArtists = useMemo(
     () => rankArtists(artists, range),
     [artists, range]
@@ -70,13 +61,7 @@ export function App() {
         if (!payload.artists?.length) return
 
         if (payload.updatedAt) {
-          const updatedAt = new Date(payload.updatedAt)
-          const date = new Intl.DateTimeFormat(undefined, {
-            month: "short",
-            day: "numeric",
-            year: "numeric",
-          }).format(updatedAt)
-          setLastUpdated(date.toLowerCase())
+          if (Number.isFinite(Date.parse(payload.updatedAt))) setLastUpdated(payload.updatedAt)
         }
 
         setArtists((current) =>
@@ -112,6 +97,7 @@ export function App() {
             return {
               ...artist,
               ...liveArtist,
+              hasData: true,
               confidence,
               sustainedMomentum,
               opportunity,
@@ -151,7 +137,7 @@ export function App() {
             </li>
             <li>
               <span className="mr-2 font-heading text-foreground">2.</span>
-              choose 24h, 7d, or 30d tab to see market history.
+              choose 24h, 7d, 30d, or 90d tab to see market history.
             </li>
             <li>
               <span className="mr-2 font-heading text-foreground">3.</span>

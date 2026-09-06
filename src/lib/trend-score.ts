@@ -1,8 +1,9 @@
 import type { Artist, TimeRange } from "@/data/artists"
 
-export const ranges: TimeRange[] = ["24h", "7d", "30d"]
+export const ranges: TimeRange[] = ["24h", "7d", "30d", "90d"]
 
 export function calculateScore(artist: Artist) {
+  if (!artist.hasData) return 0
   const confidenceWeight = 0.65 + artist.confidence * 0.0035
   const base = (
     artist.demand * 0.4 +
@@ -19,6 +20,15 @@ export function calculateScore(artist: Artist) {
 }
 
 export function getChange(artist: Artist, range: TimeRange) {
+  if (range === "90d") {
+    const latest = artist.dailySnapshots?.at(-1)
+    if (!latest || latest.demand === undefined) return null
+    const target = new Date(Date.parse(latest.date + "T00:00:00Z") - 90 * 86_400_000).toISOString().slice(0, 10)
+    const baseline = artist.dailySnapshots?.find((point) => point.date === target)?.demand
+    return baseline !== undefined && baseline > 0
+      ? Math.round(((latest.demand - baseline) / baseline) * 1000) / 10
+      : null
+  }
   return artist[`change${range}` as keyof Artist] as number | null
 }
 
@@ -31,6 +41,7 @@ export function rankArtists(data: Artist[], range: TimeRange) {
   return data
     .map((artist) => ({ ...artist, score: calculateScore(artist) }))
     .sort((a, b) =>
+      Number(b.hasData) - Number(a.hasData) ||
       b.score + (getChange(b, range) ?? 0) * rangeWeight * (b.confidence / 100) -
       (a.score + (getChange(a, range) ?? 0) * rangeWeight * (a.confidence / 100))
     )

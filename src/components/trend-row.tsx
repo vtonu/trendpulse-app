@@ -41,9 +41,9 @@ export function TrendRow({
         <span className="truncate text-[13px] font-medium tracking-tight">
           {artist.name} <span className="text-muted-foreground">type beat</span>
         </span>
-        {hasLowData && (
+        {(!artist.hasData || hasLowData) && (
           <span className="shrink-0 border border-destructive/50 px-1.5 py-0.5 font-heading text-[8px] tracking-wide text-destructive">
-            low data
+            {artist.hasData ? "low data" : "collecting data"}
           </span>
         )}
       </span>
@@ -64,7 +64,7 @@ export function TrendRow({
         key={artist.score}
         className="value-pop text-right font-heading text-xs tabular-nums"
       >
-        {(artist.score / 10).toFixed(1)}
+        {artist.hasData ? (artist.score / 10).toFixed(1) : "—"}
       </span>
     </button>
   )

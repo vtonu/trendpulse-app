@@ -103,7 +103,7 @@ function appendSnapshot(previous, snapshot, updatedAt) {
   const history = migrateSnapshots(previous, updatedAt)
     .filter((item) => item?.date && Number.isFinite(item?.pulse))
   const withoutToday = history.filter((item) => item.date !== snapshot.date)
-  return [...withoutToday, snapshot].slice(-90)
+  return [...withoutToday, snapshot].slice(-91)
 }
 
 function historyForDays(snapshots, days) {
@@ -221,6 +221,11 @@ async function main() {
       opportunity,
       confidence,
     }, previous.updatedAt)
+    const baselineDate = dateKey(Date.parse(dailySnapshots.at(-1).date + "T00:00:00Z") - 90 * DAY_MS)
+    const baselineDemand = dailySnapshots.find((item) => item.date === baselineDate)?.demand
+    const change90d = baselineDemand > 0
+      ? Math.round(((demand - baselineDemand) / baselineDemand) * 1000) / 10
+      : null
     const reason = signalReason({ confidence, ...artist.changes, demand, competition })
     return {
       id: artist.id,
@@ -234,7 +239,7 @@ async function main() {
       status: getStatus(demand, competition, momentum, opportunity),
       sampleSize: artist.sampleSize,
       ...artist.changes,
-      change90d: old?.demand ? percentChange(demand, old.demand) : null,
+      change90d,
       dailySnapshots,
       history24h: historyForDays(dailySnapshots, 1),
       history7d: historyForDays(dailySnapshots, 7),

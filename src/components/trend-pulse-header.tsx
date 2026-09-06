@@ -1,10 +1,20 @@
+import { useEffect, useState } from "react"
 import { Activity } from "lucide-react"
 import { useTheme } from "@/components/theme-provider"
 
-type TrendPulseHeaderProps = { lastUpdated: string }
+type TrendPulseHeaderProps = { lastUpdated: string | null }
 
 export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
   const { setTheme } = useTheme()
+  const [now, setNow] = useState(() => Date.now())
+  useEffect(() => {
+    const timer = window.setInterval(() => setNow(Date.now()), 60_000)
+    return () => window.clearInterval(timer)
+  }, [])
+  const delayed = lastUpdated !== null && now - Date.parse(lastUpdated) > 48 * 60 * 60 * 1000
+  const date = lastUpdated ? new Intl.DateTimeFormat(undefined, {
+    month: "short", day: "numeric", year: "numeric",
+  }).format(new Date(lastUpdated)).toLowerCase() : "unavailable"
 
   function toggleTheme() {
     setTheme(
@@ -32,10 +42,11 @@ export function TrendPulseHeader({ lastUpdated }: TrendPulseHeaderProps) {
       <div className="text-right font-heading text-[10px] leading-5 text-muted-foreground">
         <div className="flex items-center justify-end gap-1.5 text-foreground">
           <Activity className="size-3 text-primary" />
-          last updated <div className="text-foreground">{lastUpdated}</div>
+          last updated <div className="text-foreground">{date}</div>
         </div>
 
         <div>
+          {delayed && <p className="text-amber-400" role="status">update delayed</p>}
           press '
           <button
             type="button"
