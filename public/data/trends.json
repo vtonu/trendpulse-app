@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-09-11T16:33:16.284Z",
+  "updatedAt": "2026-09-12T15:35:44.355Z",
   "source": "youtube",
   "artists": [
     {
       "id": "fully-auto",
-      "demand": 72,
+      "demand": 75,
       "competition": 57,
       "momentum": 15,
       "sustainedMomentum": 16,
       "opportunity": 49,
-      "confidence": 67,
+      "confidence": 63,
       "reason": "steady demand",
       "status": "cooling down",
-      "sampleSize": 49,
-      "change24h": -58.1,
-      "change7d": -42.3,
-      "change30d": -49.7,
+      "sampleSize": 50,
+      "change24h": null,
+      "change7d": -43.2,
+      "change30d": -51.1,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -373,22 +373,31 @@
           "sustainedMomentum": 16,
           "opportunity": 49,
           "confidence": 67
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 46,
+          "demand": 75,
+          "competition": 57,
+          "momentum": 15,
+          "sustainedMomentum": 16,
+          "opportunity": 49,
+          "confidence": 63
         }
       ],
       "history24h": [
         45,
-        45
+        46
       ],
       "history7d": [
-        55,
         56,
         57,
         51,
         49,
-        45
+        45,
+        46
       ],
       "history30d": [
-        44,
         44,
         43,
         44,
@@ -416,7 +425,8 @@
         57,
         51,
         49,
-        45
+        45,
+        46
       ],
       "history90d": [
         57,
@@ -471,23 +481,24 @@
         57,
         51,
         49,
-        45
+        45,
+        46
       ]
     },
     {
       "id": "dracbaby",
       "demand": 58,
       "competition": 62,
-      "momentum": 55,
-      "sustainedMomentum": 57,
-      "opportunity": 60,
+      "momentum": 53,
+      "sustainedMomentum": 55,
+      "opportunity": 59,
       "confidence": 100,
       "reason": "strong 30d growth",
       "status": "stable",
-      "sampleSize": 77,
-      "change24h": 23.9,
-      "change7d": -16.3,
-      "change30d": 32.6,
+      "sampleSize": 79,
+      "change24h": 4.7,
+      "change7d": -21.7,
+      "change30d": 30.8,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -845,22 +856,31 @@
           "sustainedMomentum": 57,
           "opportunity": 60,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 51,
+          "demand": 58,
+          "competition": 62,
+          "momentum": 53,
+          "sustainedMomentum": 55,
+          "opportunity": 59,
+          "confidence": 100
         }
       ],
       "history24h": [
         52,
-        52
+        51
       ],
       "history7d": [
-        48,
         49,
         51,
         53,
         53,
-        52
+        52,
+        51
       ],
       "history30d": [
-        46,
         47,
         46,
         48,
@@ -888,7 +908,8 @@
         51,
         53,
         53,
-        52
+        52,
+        51
       ],
       "history90d": [
         47,
@@ -943,23 +964,24 @@
         51,
         53,
         53,
-        52
+        52,
+        51
       ]
     },
     {
       "id": "ync-traislime",
-      "demand": 48,
-      "competition": 50,
-      "momentum": 59,
-      "sustainedMomentum": 65,
+      "demand": 46,
+      "competition": 51,
+      "momentum": 62,
+      "sustainedMomentum": 68,
       "opportunity": 52,
-      "confidence": 36,
+      "confidence": 35,
       "reason": "limited data",
       "status": "stable",
-      "sampleSize": 24,
+      "sampleSize": 23,
       "change24h": null,
-      "change7d": -7.5,
-      "change30d": 51.8,
+      "change7d": -10.1,
+      "change30d": 58.3,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -1309,6 +1331,16 @@
           "sustainedMomentum": 65,
           "opportunity": 52,
           "confidence": 36
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 52,
+          "demand": 46,
+          "competition": 51,
+          "momentum": 62,
+          "sustainedMomentum": 68,
+          "opportunity": 52,
+          "confidence": 35
         }
       ],
       "history24h": [
@@ -1316,15 +1348,14 @@
         52
       ],
       "history7d": [
-        37,
         35,
         36,
         63,
         64,
+        52,
         52
       ],
       "history30d": [
-        49,
         49,
         35,
         35,
@@ -1352,6 +1383,7 @@
         36,
         63,
         64,
+        52,
         52
       ],
       "history90d": [
@@ -1405,23 +1437,24 @@
         36,
         63,
         64,
+        52,
         52
       ]
     },
     {
       "id": "baby-walkdown",
-      "demand": 67,
+      "demand": 66,
       "competition": 63,
-      "momentum": 33,
-      "sustainedMomentum": 36,
+      "momentum": 35,
+      "sustainedMomentum": 37,
       "opportunity": 57,
       "confidence": 100,
       "reason": "mixed market signals",
       "status": "cooling down",
-      "sampleSize": 89,
-      "change24h": -57.6,
-      "change7d": -55,
-      "change30d": 5.6,
+      "sampleSize": 87,
+      "change24h": -48.9,
+      "change7d": -55.1,
+      "change30d": 8.8,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -1779,6 +1812,16 @@
           "sustainedMomentum": 36,
           "opportunity": 57,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 48,
+          "demand": 66,
+          "competition": 63,
+          "momentum": 35,
+          "sustainedMomentum": 37,
+          "opportunity": 57,
+          "confidence": 100
         }
       ],
       "history24h": [
@@ -1787,14 +1830,13 @@
       ],
       "history7d": [
         36,
-        36,
         35,
         40,
         39,
+        48,
         48
       ],
       "history30d": [
-        38,
         40,
         40,
         43,
@@ -1822,6 +1864,7 @@
         35,
         40,
         39,
+        48,
         48
       ],
       "history90d": [
@@ -1877,23 +1920,24 @@
         35,
         40,
         39,
+        48,
         48
       ]
     },
     {
       "id": "future",
-      "demand": 90,
+      "demand": 95,
       "competition": 79,
-      "momentum": 15,
-      "sustainedMomentum": 16,
-      "opportunity": 55,
-      "confidence": 95,
+      "momentum": 26,
+      "sustainedMomentum": 30,
+      "opportunity": 61,
+      "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": null,
-      "change7d": -58.9,
-      "change30d": -44.3,
+      "change24h": -59.1,
+      "change7d": -55.2,
+      "change30d": -4.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -2251,22 +2295,31 @@
           "sustainedMomentum": 16,
           "opportunity": 55,
           "confidence": 95
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 52,
+          "demand": 95,
+          "competition": 79,
+          "momentum": 26,
+          "sustainedMomentum": 30,
+          "opportunity": 61,
+          "confidence": 100
         }
       ],
       "history24h": [
         47,
-        47
+        52
       ],
       "history7d": [
-        50,
         50,
         56,
         54,
         48,
-        47
+        47,
+        52
       ],
       "history30d": [
-        49,
         50,
         50,
         49,
@@ -2294,7 +2347,8 @@
         56,
         54,
         48,
-        47
+        47,
+        52
       ],
       "history90d": [
         48,
@@ -2349,23 +2403,24 @@
         56,
         54,
         48,
-        47
+        47,
+        52
       ]
     },
     {
       "id": "rodslime",
-      "demand": 82,
+      "demand": 80,
       "competition": 79,
       "momentum": 15,
-      "sustainedMomentum": 17,
-      "opportunity": 53,
+      "sustainedMomentum": 16,
+      "opportunity": 52,
       "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": 5.1,
-      "change7d": -56.9,
-      "change30d": -38,
+      "change24h": -46.9,
+      "change7d": -57,
+      "change30d": -41.5,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -2723,6 +2778,16 @@
           "sustainedMomentum": 17,
           "opportunity": 53,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 43,
+          "demand": 80,
+          "competition": 79,
+          "momentum": 15,
+          "sustainedMomentum": 16,
+          "opportunity": 52,
+          "confidence": 100
         }
       ],
       "history24h": [
@@ -2730,15 +2795,14 @@
         43
       ],
       "history7d": [
-        44,
         48,
         45,
         42,
         43,
+        43,
         43
       ],
       "history30d": [
-        49,
         50,
         49,
         49,
@@ -2765,6 +2829,7 @@
         48,
         45,
         42,
+        43,
         43,
         43
       ],
@@ -2821,6 +2886,7 @@
         45,
         42,
         43,
+        43,
         43
       ]
     },
@@ -2828,16 +2894,16 @@
       "id": "hopout",
       "demand": 62,
       "competition": 55,
-      "momentum": 54,
-      "sustainedMomentum": 57,
-      "opportunity": 58,
-      "confidence": 67,
+      "momentum": 79,
+      "sustainedMomentum": 81,
+      "opportunity": 64,
+      "confidence": 62,
       "reason": "strong 30d growth",
-      "status": "stable",
+      "status": "rising fast",
       "sampleSize": 53,
-      "change24h": 55.1,
-      "change7d": -26.6,
-      "change30d": 39,
+      "change24h": null,
+      "change7d": 38.6,
+      "change30d": 45.8,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -3195,22 +3261,31 @@
           "sustainedMomentum": 57,
           "opportunity": 58,
           "confidence": 67
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 64,
+          "demand": 62,
+          "competition": 55,
+          "momentum": 79,
+          "sustainedMomentum": 81,
+          "opportunity": 64,
+          "confidence": 62
         }
       ],
       "history24h": [
         55,
-        55
+        64
       ],
       "history7d": [
-        56,
         55,
         58,
         60,
         62,
-        55
+        55,
+        64
       ],
       "history30d": [
-        46,
         46,
         49,
         51,
@@ -3238,7 +3313,8 @@
         58,
         60,
         62,
-        55
+        55,
+        64
       ],
       "history90d": [
         53,
@@ -3293,13 +3369,14 @@
         58,
         60,
         62,
-        55
+        55,
+        64
       ]
     },
     {
       "id": "babystacxzz",
       "demand": 44,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 40,
       "opportunity": 43,
@@ -3309,7 +3386,7 @@
       "sampleSize": 2,
       "change24h": null,
       "change7d": null,
-      "change30d": -55.3,
+      "change30d": -55.1,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -3667,6 +3744,16 @@
           "sustainedMomentum": 40,
           "opportunity": 43,
           "confidence": 12
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 52,
+          "demand": 44,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 40,
+          "opportunity": 43,
+          "confidence": 12
         }
       ],
       "history24h": [
@@ -3676,13 +3763,12 @@
       "history7d": [
         48,
         48,
-        48,
+        52,
         52,
         52,
         52
       ],
       "history30d": [
-        48,
         48,
         48,
         48,
@@ -3708,6 +3794,7 @@
         48,
         48,
         48,
+        52,
         52,
         52,
         52
@@ -3765,6 +3852,7 @@
         48,
         52,
         52,
+        52,
         52
       ]
     },
@@ -3773,15 +3861,15 @@
       "demand": 64,
       "competition": 79,
       "momentum": 29,
-      "sustainedMomentum": 25,
+      "sustainedMomentum": 24,
       "opportunity": 49,
       "confidence": 100,
       "reason": "24h spike",
       "status": "cooling down",
-      "sampleSize": 100,
-      "change24h": 42.9,
-      "change7d": -51.2,
-      "change30d": -35.2,
+      "sampleSize": 97,
+      "change24h": 44,
+      "change7d": -51.5,
+      "change30d": -36.3,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -4139,6 +4227,16 @@
           "sustainedMomentum": 25,
           "opportunity": 49,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 41,
+          "demand": 64,
+          "competition": 79,
+          "momentum": 29,
+          "sustainedMomentum": 24,
+          "opportunity": 49,
+          "confidence": 100
         }
       ],
       "history24h": [
@@ -4146,15 +4244,14 @@
         41
       ],
       "history7d": [
-        38,
         39,
         39,
         43,
         41,
+        41,
         41
       ],
       "history30d": [
-        40,
         42,
         39,
         39,
@@ -4181,6 +4278,7 @@
         39,
         39,
         43,
+        41,
         41,
         41
       ],
@@ -4237,13 +4335,14 @@
         39,
         43,
         41,
+        41,
         41
       ]
     },
     {
       "id": "babylake-tj",
       "demand": 40,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 58,
       "opportunity": 47,
@@ -4253,7 +4352,7 @@
       "sampleSize": 7,
       "change24h": null,
       "change7d": null,
-      "change30d": 36,
+      "change30d": 35,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -4611,22 +4710,31 @@
           "sustainedMomentum": 58,
           "opportunity": 47,
           "confidence": 16
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 50,
+          "demand": 40,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 58,
+          "opportunity": 47,
+          "confidence": 16
         }
       ],
       "history24h": [
         51,
-        51
+        50
       ],
       "history7d": [
-        59,
         58,
         57,
         51,
         51,
-        51
+        51,
+        50
       ],
       "history30d": [
-        45,
         45,
         45,
         45,
@@ -4654,7 +4762,8 @@
         57,
         51,
         51,
-        51
+        51,
+        50
       ],
       "history90d": [
         41,
@@ -4709,23 +4818,24 @@
         57,
         51,
         51,
-        51
+        51,
+        50
       ]
     },
     {
       "id": "roddy-treyy",
       "demand": 61,
-      "competition": 65,
-      "momentum": 35,
-      "sustainedMomentum": 29,
-      "opportunity": 52,
+      "competition": 66,
+      "momentum": 32,
+      "sustainedMomentum": 26,
+      "opportunity": 51,
       "confidence": 100,
       "reason": "30d decline",
       "status": "cooling down",
-      "sampleSize": 92,
-      "change24h": -16.8,
-      "change7d": -45.3,
-      "change30d": -29.9,
+      "sampleSize": 90,
+      "change24h": -39,
+      "change7d": -47.2,
+      "change30d": -33.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -5079,22 +5189,31 @@
           "sustainedMomentum": 29,
           "opportunity": 52,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 44,
+          "demand": 61,
+          "competition": 66,
+          "momentum": 32,
+          "sustainedMomentum": 26,
+          "opportunity": 51,
+          "confidence": 100
         }
       ],
       "history24h": [
         45,
-        45
+        44
       ],
       "history7d": [
-        43,
         45,
         47,
         49,
         47,
-        45
+        45,
+        44
       ],
       "history30d": [
-        42,
         42,
         50,
         51,
@@ -5122,7 +5241,8 @@
         47,
         49,
         47,
-        45
+        45,
+        44
       ],
       "history90d": [
         47,
@@ -5176,23 +5296,24 @@
         47,
         49,
         47,
-        45
+        45,
+        44
       ]
     },
     {
       "id": "dee-thuddy",
       "demand": 43,
-      "competition": 50,
-      "momentum": 75,
-      "sustainedMomentum": 75,
-      "opportunity": 51,
+      "competition": 51,
+      "momentum": 73,
+      "sustainedMomentum": 73,
+      "opportunity": 50,
       "confidence": 24,
       "reason": "limited data",
       "status": "rising fast",
       "sampleSize": 9,
       "change24h": null,
-      "change7d": 47.2,
-      "change30d": 25.1,
+      "change7d": 45.4,
+      "change30d": 22,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -5224,32 +5345,45 @@
           "sustainedMomentum": 75,
           "opportunity": 51,
           "confidence": 24
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 55,
+          "demand": 43,
+          "competition": 51,
+          "momentum": 73,
+          "sustainedMomentum": 73,
+          "opportunity": 50,
+          "confidence": 24
         }
       ],
       "history24h": [
         56,
-        56
+        55
       ],
       "history7d": [
         54,
         54,
-        56
+        56,
+        55
       ],
       "history30d": [
         54,
         54,
-        56
+        56,
+        55
       ],
       "history90d": [
         54,
         54,
-        56
+        56,
+        55
       ]
     },
     {
       "id": "dogshitad",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5291,42 +5425,55 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "cosplatt",
       "demand": 53,
       "competition": 55,
-      "momentum": 25,
-      "sustainedMomentum": 34,
-      "opportunity": 47,
+      "momentum": 22,
+      "sustainedMomentum": 30,
+      "opportunity": 46,
       "confidence": 62,
       "reason": "mixed market signals",
       "status": "cooling down",
       "sampleSize": 53,
       "change24h": null,
-      "change7d": -52.7,
-      "change30d": 16.9,
+      "change7d": -53,
+      "change30d": 5.3,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -5358,32 +5505,45 @@
           "sustainedMomentum": 34,
           "opportunity": 47,
           "confidence": 62
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 40,
+          "demand": 53,
+          "competition": 55,
+          "momentum": 22,
+          "sustainedMomentum": 30,
+          "opportunity": 46,
+          "confidence": 62
         }
       ],
       "history24h": [
         41,
-        41
+        40
       ],
       "history7d": [
         53,
         54,
-        41
+        41,
+        40
       ],
       "history30d": [
         53,
         54,
-        41
+        41,
+        40
       ],
       "history90d": [
         53,
         54,
-        41
+        41,
+        40
       ]
     },
     {
       "id": "babysacc",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5425,42 +5585,55 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "co3",
       "demand": 69,
       "competition": 59,
-      "momentum": 19,
-      "sustainedMomentum": 18,
-      "opportunity": 50,
-      "confidence": 81,
-      "reason": "24h spike",
+      "momentum": 15,
+      "sustainedMomentum": 16,
+      "opportunity": 48,
+      "confidence": 74,
+      "reason": "30d decline",
       "status": "cooling down",
-      "sampleSize": 61,
-      "change24h": 51.3,
-      "change7d": -47,
-      "change30d": -41.4,
+      "sampleSize": 59,
+      "change24h": null,
+      "change7d": -50,
+      "change30d": -43.3,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -5492,32 +5665,45 @@
           "sustainedMomentum": 18,
           "opportunity": 50,
           "confidence": 81
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 43,
+          "demand": 69,
+          "competition": 59,
+          "momentum": 15,
+          "sustainedMomentum": 16,
+          "opportunity": 48,
+          "confidence": 74
         }
       ],
       "history24h": [
         45,
-        45
+        43
       ],
       "history7d": [
         48,
         45,
-        45
+        45,
+        43
       ],
       "history30d": [
         48,
         45,
-        45
+        45,
+        43
       ],
       "history90d": [
         48,
         45,
-        45
+        45,
+        43
       ]
     },
     {
       "id": "terion-dadon",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5559,32 +5745,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "treyfive",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5626,32 +5825,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "babyhemi",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5693,32 +5905,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "jumpout-yak",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -5760,42 +5985,55 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "bottomboylik",
       "demand": 54,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
-      "sustainedMomentum": 63,
-      "opportunity": 53,
+      "sustainedMomentum": 60,
+      "opportunity": 52,
       "confidence": 13,
       "reason": "limited data",
       "status": "stable",
       "sampleSize": 4,
       "change24h": null,
       "change7d": null,
-      "change30d": 58.6,
+      "change30d": 42.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -5827,6 +6065,16 @@
           "sustainedMomentum": 63,
           "opportunity": 53,
           "confidence": 13
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 56,
+          "demand": 54,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 60,
+          "opportunity": 52,
+          "confidence": 13
         }
       ],
       "history24h": [
@@ -5836,23 +6084,26 @@
       "history7d": [
         68,
         68,
+        56,
         56
       ],
       "history30d": [
         68,
         68,
+        56,
         56
       ],
       "history90d": [
         68,
         68,
+        56,
         56
       ]
     },
     {
       "id": "bbg-lilray",
-      "demand": 46,
-      "competition": 32,
+      "demand": 48,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 46,
@@ -5894,6 +6145,16 @@
           "sustainedMomentum": 50,
           "opportunity": 46,
           "confidence": 8
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 53,
+          "demand": 48,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 46,
+          "confidence": 8
         }
       ],
       "history24h": [
@@ -5903,15 +6164,18 @@
       "history7d": [
         54,
         53,
+        53,
         53
       ],
       "history30d": [
         54,
         53,
+        53,
         53
       ],
       "history90d": [
         54,
+        53,
         53,
         53
       ]
@@ -5919,7 +6183,7 @@
     {
       "id": "luhbody",
       "demand": 71,
-      "competition": 50,
+      "competition": 51,
       "momentum": 15,
       "sustainedMomentum": 22,
       "opportunity": 44,
@@ -5961,6 +6225,16 @@
           "sustainedMomentum": 22,
           "opportunity": 44,
           "confidence": 17
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 46,
+          "demand": 71,
+          "competition": 51,
+          "momentum": 15,
+          "sustainedMomentum": 22,
+          "opportunity": 44,
+          "confidence": 17
         }
       ],
       "history24h": [
@@ -5970,15 +6244,18 @@
       "history7d": [
         59,
         46,
+        46,
         46
       ],
       "history30d": [
         59,
         46,
+        46,
         46
       ],
       "history90d": [
         59,
+        46,
         46,
         46
       ]
@@ -5986,7 +6263,7 @@
     {
       "id": "perc-thirtyy",
       "demand": 38,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 43,
@@ -6028,41 +6305,54 @@
           "sustainedMomentum": 50,
           "opportunity": 43,
           "confidence": 6
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 49,
+          "demand": 38,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 43,
+          "confidence": 6
         }
       ],
       "history24h": [
         50,
-        50
+        49
       ],
       "history7d": [
         50,
         50,
-        50
+        50,
+        49
       ],
       "history30d": [
         50,
         50,
-        50
+        50,
+        49
       ],
       "history90d": [
         50,
         50,
-        50
+        50,
+        49
       ]
     },
     {
       "id": "trxp-loc",
-      "demand": 87,
-      "competition": 50,
-      "momentum": 15,
-      "sustainedMomentum": 39,
-      "opportunity": 55,
-      "confidence": 22,
+      "demand": 85,
+      "competition": 33,
+      "momentum": 50,
+      "sustainedMomentum": 63,
+      "opportunity": 64,
+      "confidence": 16,
       "reason": "limited data",
-      "status": "cooling down",
+      "status": "stable",
       "sampleSize": 7,
       "change24h": null,
-      "change7d": -59.2,
+      "change7d": null,
       "change30d": 59.2,
       "change90d": null,
       "dailySnapshots": [
@@ -6095,32 +6385,45 @@
           "sustainedMomentum": 39,
           "opportunity": 55,
           "confidence": 22
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 68,
+          "demand": 85,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 63,
+          "opportunity": 64,
+          "confidence": 16
         }
       ],
       "history24h": [
         53,
-        53
+        68
       ],
       "history7d": [
         51,
         52,
-        53
+        53,
+        68
       ],
       "history30d": [
         51,
         52,
-        53
+        53,
+        68
       ],
       "history90d": [
         51,
         52,
-        53
+        53,
+        68
       ]
     },
     {
       "id": "gg-fatboii",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -6162,32 +6465,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "btdadriverr",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -6229,32 +6545,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "srt8j",
       "demand": 49,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 63,
       "opportunity": 51,
@@ -6264,7 +6593,7 @@
       "sampleSize": 2,
       "change24h": null,
       "change7d": null,
-      "change30d": 58.4,
+      "change30d": 58.3,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -6296,6 +6625,16 @@
           "sustainedMomentum": 63,
           "opportunity": 51,
           "confidence": 12
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 54,
+          "demand": 49,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 63,
+          "opportunity": 51,
+          "confidence": 12
         }
       ],
       "history24h": [
@@ -6305,23 +6644,26 @@
       "history7d": [
         56,
         55,
+        54,
         54
       ],
       "history30d": [
         56,
         55,
+        54,
         54
       ],
       "history90d": [
         56,
         55,
+        54,
         54
       ]
     },
     {
       "id": "wopdadon",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -6363,32 +6705,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "breadchasin",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -6430,32 +6785,45 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "sparkwhoever",
       "demand": 41,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 44,
@@ -6497,6 +6865,16 @@
           "sustainedMomentum": 50,
           "opportunity": 44,
           "confidence": 7
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 51,
+          "demand": 41,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 44,
+          "confidence": 7
         }
       ],
       "history24h": [
@@ -6506,14 +6884,17 @@
       "history7d": [
         51,
         51,
+        51,
         51
       ],
       "history30d": [
         51,
         51,
+        51,
         51
       ],
       "history90d": [
+        51,
         51,
         51,
         51
@@ -6522,7 +6903,7 @@
     {
       "id": "luh-gualla",
       "demand": 28,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 50,
       "opportunity": 38,
@@ -6564,42 +6945,55 @@
           "sustainedMomentum": 50,
           "opportunity": 38,
           "confidence": 0
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 28,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 50,
+          "opportunity": 38,
+          "confidence": 0
         }
       ],
       "history24h": [
         46,
-        46
+        45
       ],
       "history7d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history30d": [
         46,
         46,
-        46
+        46,
+        45
       ],
       "history90d": [
         46,
         46,
-        46
+        46,
+        45
       ]
     },
     {
       "id": "pooh-shiesty",
-      "demand": 77,
+      "demand": 82,
       "competition": 79,
-      "momentum": 20,
-      "sustainedMomentum": 21,
-      "opportunity": 52,
+      "momentum": 23,
+      "sustainedMomentum": 25,
+      "opportunity": 55,
       "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": -57.9,
-      "change7d": -56.4,
-      "change30d": -30.3,
+      "change24h": -59,
+      "change7d": -56,
+      "change30d": -20.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -6949,22 +7343,31 @@
           "sustainedMomentum": 21,
           "opportunity": 52,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 46,
+          "demand": 82,
+          "competition": 79,
+          "momentum": 23,
+          "sustainedMomentum": 25,
+          "opportunity": 55,
+          "confidence": 100
         }
       ],
       "history24h": [
         43,
-        43
+        46
       ],
       "history7d": [
-        51,
         47,
         34,
         47,
         47,
-        43
+        43,
+        46
       ],
       "history30d": [
-        79,
         57,
         51,
         51,
@@ -6992,7 +7395,8 @@
         34,
         47,
         47,
-        43
+        43,
+        46
       ],
       "history90d": [
         37,
@@ -7045,23 +7449,24 @@
         34,
         47,
         47,
-        43
+        43,
+        46
       ]
     },
     {
       "id": "southside",
-      "demand": 84,
+      "demand": 90,
       "competition": 79,
-      "momentum": 60,
-      "sustainedMomentum": 60,
-      "opportunity": 67,
+      "momentum": 86,
+      "sustainedMomentum": 76,
+      "opportunity": 74,
       "confidence": 100,
       "reason": "strong 30d growth",
-      "status": "saturated",
-      "sampleSize": 100,
-      "change24h": -55.3,
-      "change7d": -54.7,
-      "change30d": 55.3,
+      "status": "rising fast",
+      "sampleSize": 99,
+      "change24h": -47.2,
+      "change7d": -31.3,
+      "change30d": 57.6,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -7415,22 +7820,31 @@
           "sustainedMomentum": 60,
           "opportunity": 67,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 71,
+          "demand": 90,
+          "competition": 79,
+          "momentum": 86,
+          "sustainedMomentum": 76,
+          "opportunity": 74,
+          "confidence": 100
         }
       ],
       "history24h": [
         60,
-        60
+        71
       ],
       "history7d": [
-        66,
         75,
         63,
         69,
         74,
-        60
+        60,
+        71
       ],
       "history30d": [
-        60,
         68,
         63,
         62,
@@ -7458,7 +7872,8 @@
         63,
         69,
         74,
-        60
+        60,
+        71
       ],
       "history90d": [
         71,
@@ -7512,23 +7927,24 @@
         63,
         69,
         74,
-        60
+        60,
+        71
       ]
     },
     {
       "id": "dee-mula",
       "demand": 56,
-      "competition": 67,
+      "competition": 66,
       "momentum": 57,
       "sustainedMomentum": 58,
       "opportunity": 59,
       "confidence": 100,
       "reason": "strong 30d growth",
       "status": "stable",
-      "sampleSize": 93,
-      "change24h": 30.9,
-      "change7d": -19.9,
-      "change30d": 33.7,
+      "sampleSize": 90,
+      "change24h": 44.2,
+      "change7d": -25.5,
+      "change30d": 36.6,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -7882,6 +8298,16 @@
           "sustainedMomentum": 58,
           "opportunity": 59,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 51,
+          "demand": 56,
+          "competition": 66,
+          "momentum": 57,
+          "sustainedMomentum": 58,
+          "opportunity": 59,
+          "confidence": 100
         }
       ],
       "history24h": [
@@ -7889,15 +8315,14 @@
         51
       ],
       "history7d": [
-        46,
         40,
         47,
         53,
         53,
+        51,
         51
       ],
       "history30d": [
-        45,
         47,
         45,
         46,
@@ -7925,6 +8350,7 @@
         47,
         53,
         53,
+        51,
         51
       ],
       "history90d": [
@@ -7979,23 +8405,24 @@
         47,
         53,
         53,
+        51,
         51
       ]
     },
     {
       "id": "lil-double-0",
-      "demand": 80,
+      "demand": 79,
       "competition": 79,
-      "momentum": 25,
-      "sustainedMomentum": 21,
-      "opportunity": 53,
-      "confidence": 95,
-      "reason": "steady demand",
+      "momentum": 20,
+      "sustainedMomentum": 18,
+      "opportunity": 52,
+      "confidence": 100,
+      "reason": "24h spike",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": null,
-      "change7d": -56.7,
-      "change30d": -41.7,
+      "change24h": 53.2,
+      "change7d": -57.1,
+      "change30d": -44.6,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -8345,22 +8772,31 @@
           "sustainedMomentum": 21,
           "opportunity": 53,
           "confidence": 95
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 44,
+          "demand": 79,
+          "competition": 79,
+          "momentum": 20,
+          "sustainedMomentum": 18,
+          "opportunity": 52,
+          "confidence": 100
         }
       ],
       "history24h": [
         46,
-        46
+        44
       ],
       "history7d": [
-        50,
         51,
         43,
         42,
         44,
-        46
+        46,
+        44
       ],
       "history30d": [
-        45,
         50,
         49,
         46,
@@ -8388,7 +8824,8 @@
         43,
         42,
         44,
-        46
+        46,
+        44
       ],
       "history90d": [
         49,
@@ -8441,23 +8878,24 @@
         43,
         42,
         44,
-        46
+        46,
+        44
       ]
     },
     {
       "id": "est-gee",
       "demand": 88,
       "competition": 79,
-      "momentum": 35,
-      "sustainedMomentum": 48,
-      "opportunity": 64,
+      "momentum": 41,
+      "sustainedMomentum": 51,
+      "opportunity": 65,
       "confidence": 100,
       "reason": "strong 30d growth",
       "status": "saturated",
-      "sampleSize": 100,
-      "change24h": -58.1,
-      "change7d": -56.4,
-      "change30d": 56.7,
+      "sampleSize": 99,
+      "change24h": -57.6,
+      "change7d": -55.5,
+      "change30d": 57.1,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -8807,22 +9245,31 @@
           "sustainedMomentum": 48,
           "opportunity": 64,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 55,
+          "demand": 88,
+          "competition": 79,
+          "momentum": 41,
+          "sustainedMomentum": 51,
+          "opportunity": 65,
+          "confidence": 100
         }
       ],
       "history24h": [
         53,
-        53
+        55
       ],
       "history7d": [
-        59,
         61,
         59,
         58,
         68,
-        53
+        53,
+        55
       ],
       "history30d": [
-        62,
         60,
         54,
         53,
@@ -8850,7 +9297,8 @@
         59,
         58,
         68,
-        53
+        53,
+        55
       ],
       "history90d": [
         60,
@@ -8903,23 +9351,24 @@
         59,
         58,
         68,
-        53
+        53,
+        55
       ]
     },
     {
       "id": "glokk40spaz",
-      "demand": 66,
+      "demand": 67,
       "competition": 79,
-      "momentum": 51,
-      "sustainedMomentum": 50,
+      "momentum": 47,
+      "sustainedMomentum": 47,
       "opportunity": 57,
       "confidence": 100,
-      "reason": "mixed market signals",
+      "reason": "strong 30d growth",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": -58.4,
-      "change7d": -33.2,
-      "change30d": 18.9,
+      "change24h": -58.2,
+      "change7d": -47.4,
+      "change30d": 25.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -9269,22 +9718,31 @@
           "sustainedMomentum": 50,
           "opportunity": 57,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 49,
+          "demand": 67,
+          "competition": 79,
+          "momentum": 47,
+          "sustainedMomentum": 47,
+          "opportunity": 57,
+          "confidence": 100
         }
       ],
       "history24h": [
         50,
-        50
+        49
       ],
       "history7d": [
-        49,
         47,
         38,
         43,
         46,
-        50
+        50,
+        49
       ],
       "history30d": [
-        35,
         39,
         41,
         44,
@@ -9312,7 +9770,8 @@
         38,
         43,
         46,
-        50
+        50,
+        49
       ],
       "history90d": [
         60,
@@ -9365,23 +9824,24 @@
         38,
         43,
         46,
-        50
+        50,
+        49
       ]
     },
     {
       "id": "moneybagg-yo",
-      "demand": 95,
+      "demand": 72,
       "competition": 79,
-      "momentum": 15,
-      "sustainedMomentum": 16,
+      "momentum": 41,
+      "sustainedMomentum": 41,
       "opportunity": 57,
       "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": -58.5,
-      "change7d": -37.9,
-      "change30d": -58.8,
+      "change24h": -58.7,
+      "change7d": -44.7,
+      "change30d": 10.4,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -9731,22 +10191,31 @@
           "sustainedMomentum": 16,
           "opportunity": 57,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 48,
+          "demand": 72,
+          "competition": 79,
+          "momentum": 41,
+          "sustainedMomentum": 41,
+          "opportunity": 57,
+          "confidence": 100
         }
       ],
       "history24h": [
         49,
-        49
+        48
       ],
       "history7d": [
-        44,
         51,
         50,
         45,
         49,
-        49
+        49,
+        48
       ],
       "history30d": [
-        43,
         38,
         36,
         40,
@@ -9774,7 +10243,8 @@
         50,
         45,
         49,
-        49
+        49,
+        48
       ],
       "history90d": [
         51,
@@ -9827,23 +10297,24 @@
         50,
         45,
         49,
-        49
+        49,
+        48
       ]
     },
     {
       "id": "playboi-carti",
-      "demand": 75,
+      "demand": 77,
       "competition": 79,
-      "momentum": 20,
-      "sustainedMomentum": 24,
-      "opportunity": 52,
+      "momentum": 26,
+      "sustainedMomentum": 27,
+      "opportunity": 54,
       "confidence": 95,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
       "change24h": null,
-      "change7d": -57.9,
-      "change30d": -18.1,
+      "change7d": -56.9,
+      "change30d": -18.6,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -10193,22 +10664,31 @@
           "sustainedMomentum": 24,
           "opportunity": 52,
           "confidence": 95
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 45,
+          "demand": 77,
+          "competition": 79,
+          "momentum": 26,
+          "sustainedMomentum": 27,
+          "opportunity": 54,
+          "confidence": 95
         }
       ],
       "history24h": [
         42,
-        42
+        45
       ],
       "history7d": [
-        62,
         49,
         60,
         42,
         47,
-        42
+        42,
+        45
       ],
       "history30d": [
-        53,
         49,
         48,
         53,
@@ -10236,7 +10716,8 @@
         60,
         42,
         47,
-        42
+        42,
+        45
       ],
       "history90d": [
         52,
@@ -10289,23 +10770,24 @@
         60,
         42,
         47,
-        42
+        42,
+        45
       ]
     },
     {
       "id": "young-thug",
-      "demand": 93,
+      "demand": 92,
       "competition": 79,
-      "momentum": 15,
-      "sustainedMomentum": 26,
-      "opportunity": 60,
+      "momentum": 32,
+      "sustainedMomentum": 32,
+      "opportunity": 61,
       "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": -58.7,
-      "change7d": -58.6,
-      "change30d": 1,
+      "change24h": -58.6,
+      "change7d": -51.4,
+      "change30d": -9.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -10655,22 +11137,31 @@
           "sustainedMomentum": 26,
           "opportunity": 60,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 53,
+          "demand": 92,
+          "competition": 79,
+          "momentum": 32,
+          "sustainedMomentum": 32,
+          "opportunity": 61,
+          "confidence": 100
         }
       ],
       "history24h": [
         48,
-        48
+        53
       ],
       "history7d": [
-        58,
         57,
         55,
         63,
         50,
-        48
+        48,
+        53
       ],
       "history30d": [
-        60,
         54,
         49,
         61,
@@ -10698,7 +11189,8 @@
         55,
         63,
         50,
-        48
+        48,
+        53
       ],
       "history90d": [
         53,
@@ -10751,23 +11243,24 @@
         55,
         63,
         50,
-        48
+        48,
+        53
       ]
     },
     {
       "id": "key-glock",
       "demand": 74,
       "competition": 79,
-      "momentum": 30,
-      "sustainedMomentum": 25,
-      "opportunity": 53,
+      "momentum": 15,
+      "sustainedMomentum": 15,
+      "opportunity": 50,
       "confidence": 100,
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": -58.1,
-      "change7d": -47,
-      "change30d": -37.2,
+      "change24h": -58.8,
+      "change7d": -56.8,
+      "change30d": -52.4,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -11117,22 +11610,31 @@
           "sustainedMomentum": 25,
           "opportunity": 53,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 40,
+          "demand": 74,
+          "competition": 79,
+          "momentum": 15,
+          "sustainedMomentum": 15,
+          "opportunity": 50,
+          "confidence": 100
         }
       ],
       "history24h": [
         45,
-        45
+        40
       ],
       "history7d": [
-        40,
         38,
         48,
         58,
         45,
-        45
+        45,
+        40
       ],
       "history30d": [
-        43,
         46,
         49,
         51,
@@ -11160,7 +11662,8 @@
         48,
         58,
         45,
-        45
+        45,
+        40
       ],
       "history90d": [
         46,
@@ -11213,12 +11716,13 @@
         48,
         58,
         45,
-        45
+        45,
+        40
       ]
     },
     {
       "id": "big30",
-      "demand": 92,
+      "demand": 93,
       "competition": 79,
       "momentum": 15,
       "sustainedMomentum": 15,
@@ -11227,9 +11731,9 @@
       "reason": "steady demand",
       "status": "saturated",
       "sampleSize": 100,
-      "change24h": 5,
-      "change7d": -52.9,
-      "change30d": -58,
+      "change24h": -16.7,
+      "change7d": -55.1,
+      "change30d": -57.9,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -11261,32 +11765,45 @@
           "sustainedMomentum": 15,
           "opportunity": 56,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 48,
+          "demand": 93,
+          "competition": 79,
+          "momentum": 15,
+          "sustainedMomentum": 15,
+          "opportunity": 56,
+          "confidence": 100
         }
       ],
       "history24h": [
         47,
-        47
+        48
       ],
       "history7d": [
         47,
         47,
-        47
+        47,
+        48
       ],
       "history30d": [
         47,
         47,
-        47
+        47,
+        48
       ],
       "history90d": [
         47,
         47,
-        47
+        47,
+        48
       ]
     },
     {
       "id": "honeykomb-brazy",
       "demand": 51,
-      "competition": 32,
+      "competition": 33,
       "momentum": 50,
       "sustainedMomentum": 63,
       "opportunity": 53,
@@ -11296,7 +11813,7 @@
       "sampleSize": 12,
       "change24h": null,
       "change7d": null,
-      "change30d": 58.7,
+      "change30d": 58.6,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -11328,6 +11845,16 @@
           "sustainedMomentum": 63,
           "opportunity": 53,
           "confidence": 20
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 55,
+          "demand": 51,
+          "competition": 33,
+          "momentum": 50,
+          "sustainedMomentum": 63,
+          "opportunity": 53,
+          "confidence": 20
         }
       ],
       "history24h": [
@@ -11337,22 +11864,25 @@
       "history7d": [
         55,
         54,
+        55,
         55
       ],
       "history30d": [
         55,
         54,
+        55,
         55
       ],
       "history90d": [
         55,
         54,
+        55,
         55
       ]
     },
     {
       "id": "tm88",
-      "demand": 85,
+      "demand": 84,
       "competition": 79,
       "momentum": 15,
       "sustainedMomentum": 38,
@@ -11361,8 +11891,8 @@
       "reason": "strong 30d growth",
       "status": "saturated",
       "sampleSize": 99,
-      "change24h": -55.2,
-      "change7d": -58.6,
+      "change24h": -52.9,
+      "change7d": -58.8,
       "change30d": 57.1,
       "change90d": null,
       "dailySnapshots": [
@@ -11395,42 +11925,55 @@
           "sustainedMomentum": 38,
           "opportunity": 60,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 44,
+          "demand": 84,
+          "competition": 79,
+          "momentum": 15,
+          "sustainedMomentum": 38,
+          "opportunity": 60,
+          "confidence": 100
         }
       ],
       "history24h": [
         45,
-        45
+        44
       ],
       "history7d": [
         45,
         44,
-        45
+        45,
+        44
       ],
       "history30d": [
         45,
         44,
-        45
+        45,
+        44
       ],
       "history90d": [
         45,
         44,
-        45
+        45,
+        44
       ]
     },
     {
       "id": "808mafia",
-      "demand": 79,
+      "demand": 87,
       "competition": 79,
-      "momentum": 78,
-      "sustainedMomentum": 81,
-      "opportunity": 71,
+      "momentum": 89,
+      "sustainedMomentum": 89,
+      "opportunity": 76,
       "confidence": 100,
       "reason": "strong 30d growth",
       "status": "rising fast",
       "sampleSize": 99,
-      "change24h": -56.8,
-      "change7d": 38.2,
-      "change30d": 51.2,
+      "change24h": -9.6,
+      "change7d": 48.6,
+      "change30d": 55.5,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -11462,42 +12005,55 @@
           "sustainedMomentum": 81,
           "opportunity": 71,
           "confidence": 100
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 71,
+          "demand": 87,
+          "competition": 79,
+          "momentum": 89,
+          "sustainedMomentum": 89,
+          "opportunity": 76,
+          "confidence": 100
         }
       ],
       "history24h": [
         64,
-        64
+        71
       ],
       "history7d": [
         69,
         68,
-        64
+        64,
+        71
       ],
       "history30d": [
         69,
         68,
-        64
+        64,
+        71
       ],
       "history90d": [
         69,
         68,
-        64
+        64,
+        71
       ]
     },
     {
       "id": "sizzle",
       "demand": 59,
       "competition": 60,
-      "momentum": 24,
-      "sustainedMomentum": 25,
-      "opportunity": 50,
+      "momentum": 26,
+      "sustainedMomentum": 27,
+      "opportunity": 51,
       "confidence": 95,
       "reason": "24h spike",
       "status": "cooling down",
-      "sampleSize": 73,
-      "change24h": 55.3,
-      "change7d": -8.1,
-      "change30d": -55.8,
+      "sampleSize": 74,
+      "change24h": 49.4,
+      "change7d": -1.4,
+      "change30d": -56.2,
       "change90d": null,
       "dailySnapshots": [
         {
@@ -11529,26 +12085,39 @@
           "sustainedMomentum": 25,
           "opportunity": 50,
           "confidence": 95
+        },
+        {
+          "date": "2026-09-12",
+          "pulse": 43,
+          "demand": 59,
+          "competition": 60,
+          "momentum": 26,
+          "sustainedMomentum": 27,
+          "opportunity": 51,
+          "confidence": 95
         }
       ],
       "history24h": [
         42,
-        42
+        43
       ],
       "history7d": [
         42,
         42,
-        42
+        42,
+        43
       ],
       "history30d": [
         42,
         42,
-        42
+        42,
+        43
       ],
       "history90d": [
         42,
         42,
-        42
+        42,
+        43
       ]
     }
   ]
