@@ -11,7 +11,7 @@ import {
 import { rankArtists } from "@/lib/trend-score"
 
 export function App() {
-  const [range, setRange] = useState<TimeRange>("24h")
+  const [range, setRange] = useState<TimeRange>("14d")
   const [artists, setArtists] = useState(initialArtists)
   const [lastUpdated, setLastUpdated] = useState<string | null>(null)
   const rankedArtists = useMemo(
@@ -97,7 +97,7 @@ export function App() {
             return {
               ...artist,
               ...liveArtist,
-              hasData: true,
+              hasData: (sampleSize ?? 0) > 0,
               confidence,
               sustainedMomentum,
               opportunity,
@@ -120,48 +120,6 @@ export function App() {
     <main className="min-h-svh px-4 py-8 sm:px-8 sm:py-12">
       <div className="mx-auto flex w-full max-w-xl flex-col gap-10">
         <TrendPulseHeader lastUpdated={lastUpdated} />
-        <aside
-          className="border border-border p-4 sm:p-5"
-          aria-labelledby="how-it-works-title"
-        >
-          <p
-            id="how-it-works-title"
-            className="font-heading text-[10px] tracking-[0.16em] text-primary"
-          >
-            how it works:
-          </p>
-          <ol className="mt-3 space-y-2 text-xs leading-5 text-muted-foreground">
-            <li>
-              <span className="mr-2 font-heading text-foreground">1.</span>trend
-              pulse checks youtube type beats data daily.
-            </li>
-            <li>
-              <span className="mr-2 font-heading text-foreground">2.</span>
-              choose 24h, 7d, 30d, or 90d tab to see market history.
-            </li>
-            <li>
-              <span className="mr-2 font-heading text-foreground">3.</span>
-              select an artist to compare demand, competition, and opportunity.
-            </li>
-          </ol>
-          <div
-            className="mt-3 flex items-center gap-2 border-t border-border pt-3"
-            aria-label="opportunity levels"
-          >
-            <span className="font-heading text-[9px] tracking-wide text-muted-foreground">
-              opportunity for type beats videos:
-            </span>
-            <span className="inline-flex border border-destructive/50 bg-destructive/[0.06] px-2 py-1 font-heading text-[9px] tracking-wide text-destructive">
-              low
-            </span>
-            <span className="inline-flex border border-amber-400/40 bg-amber-400/[0.06] px-2 py-1 font-heading text-[9px] tracking-wide text-amber-400">
-              medium
-            </span>
-            <span className="inline-flex border border-primary/30 bg-primary/[0.06] px-2 py-1 font-heading text-[9px] tracking-wide text-primary">
-              high
-            </span>
-          </div>
-        </aside>
         <TimeRangeTabs value={range} onChange={handleRangeChange} />
         <TopTrendingList
           artists={rankedArtists}

@@ -43,7 +43,7 @@ export function TrendRow({
         </span>
         {(!artist.hasData || hasLowData) && (
           <span className="shrink-0 border border-destructive/50 px-1.5 py-0.5 font-heading text-[8px] tracking-wide text-destructive">
-            {artist.hasData ? "low data" : "collecting data"}
+            {artist.hasData ? "low data" : artist.sampleSize === 0 ? "no data" : "collecting data"}
           </span>
         )}
       </span>

@@ -1,4 +1,4 @@
-export type TimeRange = "24h" | "7d" | "30d" | "90d"
+export type TimeRange = "3d" | "14d" | "30d"
 
 export type Artist = {
   id: string
